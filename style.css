@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 :root {
   --black: #050505;
   --card: #151515;
@@ -575,7 +575,10 @@ button {
   color: #aaa;
   font-style: normal;
 }
-
+.contact-card span {
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+}
 .footer-name {
   display: block;
   margin: 105px 0 15px;
