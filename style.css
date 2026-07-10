@@ -751,7 +751,7 @@ button {
   }
 .hero-art {
     position: relative;
-    right: auto;
+    right: -22px;
     width: calc(100% + -10px);
     height: 460px;
     margin: 40px -18px 0;
