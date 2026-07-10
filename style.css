@@ -493,7 +493,7 @@ button {
     background: #0b0b0b;
     align-items: center;
     gap: 10px;
-    font-size: 9px;
+    font-size: 14px;
     line-height: 1.1;
 }
 .work {
@@ -948,10 +948,10 @@ button {
     min-height: 160px;
   }
 
-  .wide-link {
-        padding-inline: 26%;
-        width: 74%;
-  }
+.wide-link {
+    padding-inline: 20%;
+    width: 74%;
+}
 }
 
 @media (prefers-reduced-motion: reduce) {
