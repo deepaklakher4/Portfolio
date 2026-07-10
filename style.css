@@ -171,21 +171,24 @@ button {
 .accent-dot {
     position: relative;
     display: inline-block;
-    z-index: 1;
-    isolation: isolate; /* Creates a new stacking context */
+}
+
+.accent-dot span {
+    position: relative;
+    z-index: 2; /* p always above circle */
 }
 
 .accent-dot::before {
     content: "";
     position: absolute;
-    top: 50%;
-    left: 48%;
     width: 0.9em;
     height: 0.9em;
     background: var(--orange);
     border-radius: 50%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    z-index: -1;
+    z-index: 1; /* circle behind only the p */
 }
 
 .role {
