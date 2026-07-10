@@ -700,10 +700,12 @@ button {
     transition: opacity .25s ease, visibility .25s ease;
   }
 
-  .mobile-nav.open {
+.mobile-nav.open {
     visibility: visible;
     opacity: 1;
-  }
+    height: 100vh;
+    width: 100%;
+}
 
   .mobile-nav a {
     padding: 13px 0;
