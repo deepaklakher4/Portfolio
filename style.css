@@ -362,10 +362,10 @@ button {
 }
 
 .hello-card small {
-  display: block;
-  margin-bottom: 9px;
-  color: var(--orange);
-  font-size: 10px;
+    display: block;
+    margin-bottom: 9px;
+    color: var(--orange);
+    font-size: 20px;
 }
 
 .hello-card strong {
