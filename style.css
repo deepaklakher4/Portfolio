@@ -577,7 +577,8 @@ button {
 }
 .contact-card span {
     font-size: 16px;
-   font-family: "Syne", sans-serif;
+    font-family: "Syne", sans-serif;
+    font-weight: 600;
 }
 .footer-name {
   display: block;
