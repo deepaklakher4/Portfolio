@@ -588,16 +588,16 @@ button {
     font-weight: 600;
 }
 .footer-name {
-  display: block;
-  margin: 105px 0 15px;
-  padding-bottom: 35px;
-  border-bottom: 1px solid #131313;
-  font-size: clamp(48px, 7.2vw, 108px);
-  font-weight: 900;
-  letter-spacing: .02em;
-  line-height: 1;
-  text-align: center;
-  transform: scaleX(1.04);
+    display: block;
+    margin: 105px 0 15px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #131313;
+    font-size: clamp(48px, 7.2vw, 70px);
+    font-weight: 900;
+    letter-spacing: .02em;
+    line-height: 1;
+    text-align: center;
+    transform: scaleX(1.04);
 }
 
 .reveal {
