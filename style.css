@@ -59,8 +59,10 @@ button {
 }
 
 .section-shell {
-  width: min(calc(100% - 64px), var(--shell));
-  margin-inline: auto;
+    width: min(calc(100% - 64px), var(--shell));
+    margin-inline: auto;
+    position: relative;
+    z-index: 1;
 }
 
 .site-header {
@@ -366,7 +368,7 @@ button {
 .hello-card small {
     display: block;
     margin-bottom: 9px;
-    color: var(--orange);
+    color: #000000;
     font-size: 20px;
 }
 
