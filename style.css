@@ -280,7 +280,9 @@ button {
     object-position: 0% center;
 }
 .services {
-  padding: 125px 0 90px;
+    padding: 125px 0 90px;
+    position: relative;
+    z-index: -1;
 }
 
 .services h2,
