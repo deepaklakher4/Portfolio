@@ -284,7 +284,7 @@ button {
 .services {
     padding: 125px 0 90px;
     position: relative;
-    z-index: -1;
+    z-index: 1;
 }
 
 .services h2,
