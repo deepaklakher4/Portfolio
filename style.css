@@ -714,20 +714,19 @@ button {
     font-size: 34px;
     font-weight: 600;
   }
-
-  .hero {
+.hero {
     display: flex;
     min-height: auto;
-    padding: 115px 18px 0;
+    padding: 0px 18px 0;
     flex-direction: column;
-  }
+}
 
-  .hero-copy {
+.hero-copy {
     width: 100%;
     margin: 0;
     padding: 0;
-    
-  }
+    order: 2;
+}
 
   .hero .eyebrow {
     font-size: 16px;
@@ -864,9 +863,9 @@ button {
 }
 
 @media (max-width: 480px) {
-  .hero-art {
-    height: 390px;
-  }
+.hero-art {
+    height: 348px;
+}
 
   .actions {
     gap: 8px;
