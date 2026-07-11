@@ -717,10 +717,9 @@ button {
 .hero {
     display: flex;
     min-height: auto;
-    padding: 0px 18px 0;
+    padding: 0px 18px 40px;
     flex-direction: column;
 }
-
 .hero-copy {
     width: 100%;
     margin: 0;
