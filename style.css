@@ -378,7 +378,7 @@ button {
 }
 
 .about {
-  padding: 75px 0 145px;
+    padding: 60px 0 145px;
 }
 
 .about-row {
@@ -402,11 +402,11 @@ button {
 }
 
 .resume-row {
-  display: grid;
-  margin-top: 115px;
-  grid-template-columns: .95fr 1.25fr;
-  align-items: center;
-  gap: 100px;
+    display: grid;
+    margin-top: 60px;
+    grid-template-columns: .95fr 1.25fr;
+    align-items: center;
+    gap: 100px;
 }
 
 .meeting-card img {
