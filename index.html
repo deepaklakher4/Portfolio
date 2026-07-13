@@ -1,66 +1,68 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Deepak Lakhera — Product Designer portfolio"
-    />
-    <title>Deepak Lakhera — Product Designer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="work-showcase-gallery.css">
-     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-  </head>
-  <body>
-    <header class="site-header" id="top">
-      <a class="brand" href="#top" aria-label="Deepak home">DEEPAK</a>
-      <nav class="desktop-nav" aria-label="Primary navigation">
-        <a href="#contact">Let’s Talk <span>↗</span></a>
-        <button
-          class="menu-button"
-          aria-label="Open menu"
-          aria-expanded="false"
-        >
-          <span></span><span></span>
-        </button>
-      </nav>
-      <button
-        class="mobile-menu-button"
-        aria-label="Open menu"
-        aria-expanded="false"
-      >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Deepak Lakhera — Product Designer portfolio">
+  <title>Deepak Lakhera — Product Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Deepak home">
+      <span class="brand-mark"></span>
+      <span>DEEPAK</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#contact">Let’s Talk <span>↗</span></a>
+      <button class="menu-button menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-open>
         <span></span><span></span>
       </button>
-      <nav class="mobile-nav" aria-label="Mobile navigation">
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
-        <a href="#work">Work</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+    </nav>
+    <button class="mobile-menu-button menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-open>
+      <span></span><span></span>
+    </button>
+    <nav class="mobile-nav" aria-label="Main navigation" aria-hidden="true" data-menu>
+      <div class="drawer-head">
+        <a class="brand drawer-brand" href="#top" aria-label="Deepak home">
+          <span class="brand-mark"></span>
+          <span>DEEPAK</span>
+        </a>
+        <button class="drawer-close" type="button" aria-label="Close menu" data-menu-close>×</button>
+      </div>
 
-    <main>
+      <div class="drawer-links">
+        <a href="#top">Home <span>↗</span></a>
+        <a href="#about">About <span>↗</span></a>
+        <a href="#work">Project <span>↗</span></a>
+        <a href="#work-grid">Project details <span>↗</span></a>
+        <a href="#services">Services <span>↗</span></a>
+        <a href="#contact">Contact <span>↗</span></a>
+      </div>
 
- 
-         
-            <section class="hero-perez">
+      <div class="drawer-social">
+        <a href="#" aria-label="Behance">Bē</a>
+        <a href="#" aria-label="LinkedIn">in</a>
+        <a href="#" aria-label="Dribbble">◌</a>
+        <a href="#" aria-label="GitHub">GH</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-light">
       <div class="hero-copy">
-        <p class="hero-kicker"><span></span>Hello, I’m ✌</p>
-        <h1><span>D</span>eepak<br>Lakhera</h1>
-        <p class="hero-role">Product Designer | Based in India</p>
-
-        <div class="hero-buttons">
-          <a class="hero-btn hero-btn-dark" href="#contact">Let’s Talk <span>↗</span></a>
-          <a class="hero-btn hero-btn-outline" href="#work">My Work <span>↗</span></a>
+        <p class="eyebrow dark hero-eyebrow"><span class="eyebrow-line"></span>Hello, I’m <span>✌</span></p>
+        <h1><span class="accent-dot">D</span>eepak<br>Lakhera</h1>
+        <p class="role">Product Designer | Based in India</p>
+        <div class="actions">
+          <a class="button button-dark hero-action" href="#contact">Let’s Talk <span>↗</span></a>
+          <a class="button button-outline-dark hero-action" href="#work">My Work <span>↗</span></a>
         </div>
-
         <div class="hero-stats">
           <strong>200+</strong>
           <span>Projects Completed</span>
@@ -71,1268 +73,312 @@
           <a href="#" aria-label="GitHub">GH</a>
         </div>
       </div>
-
-      <div class="hero-visual">
+      <div class="hero-art">
         <img src="assets/hero-person.jpg" alt="Deepak Lakhera">
-        <a class="hero-contact-badge" href="#contact" aria-label="Contact me">
+        <a class="contact-badge" href="#contact" aria-label="Contact me">
           <span>CONTACT ME · CONTACT ME ·</span>
           <i>↓</i>
         </a>
       </div>
     </section>
-      
-      <section class="hero section-light">
-        <div class="hero-copy">
-          <p class="eyebrow dark">Hello, I’m <span>✌</span></p>
-          <h1><span class="accent-dot"><span>D</span></span>eepak<br />Lakhera</h1>
-          <p class="role">Product Designer | Based in India</p>
-          <div class="actions">
-            <a class="button button-dark" href="tel:+918349576938"
-              >Let’s Talk <span>↗</span></a
-            >
-            <a class="button button-outline-dark" href="tel:+918349576938"
-              >My Work <span>↗</span></a
-            >
-          </div>
-          <div class="hero-stats">
-            <strong>200+</strong>
-            <span>Projects Completed</span>
-            <a href="https://www.behance.net/deepaklakhera3" aria-label="Behance">Bē</a>
-            <a href="https://www.linkedin.com/in/deepak-lakhera-497674230/" aria-label="LinkedIn">in</a>
-          </div>
-        </div>
-        <div class="hero-art">
-          <img src="assets/hero-person.png" alt="Deepak Lakhera" />
-        </div>
-      </section>
 
-      <section class="services section-dark" id="services">
-        <div class="section-shell">
-          <p class="eyebrow">Services</p>
-          <h2><span class="accent-dot"><span>M</span></span>y specialties</h2>
-          <div class="services-layout">
-            <div class="service-grid">
-              <article class="service-card">
-                <svg
-                  width="45"
-                  height="45"
-                  viewBox="0 0 45 45"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    x="2.5"
-                    y="1.66663"
-                    width="40"
-                    height="40"
-                    rx="20"
-                    fill="white"
-                  />
-                  <g filter="url(#filter0_dd_567_173)">
-                    <rect
-                      x="2.5"
-                      y="1.66663"
-                      width="40"
-                      height="40"
-                      rx="20"
-                      fill="white"
-                      fill-opacity="0.01"
-                      shape-rendering="crispEdges"
-                    />
-                  </g>
-                  <g clip-path="url(#clip0_567_173)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M16.5625 14.7916C16.5625 13.4109 17.6818 12.2916 19.0625 12.2916H25.9375C27.3182 12.2916 28.4375 13.4109 28.4375 14.7916V28.5416C28.4375 29.9224 27.3182 31.0416 25.9375 31.0416H19.0625C17.6818 31.0416 16.5625 29.9224 16.5625 28.5416V14.7916ZM19.0625 13.5416C18.3722 13.5416 17.8125 14.1013 17.8125 14.7916V28.5416C17.8125 29.232 18.3722 29.7916 19.0625 29.7916H25.9375C26.6278 29.7916 27.1875 29.232 27.1875 28.5416V14.7916C27.1875 14.1013 26.6278 13.5416 25.9375 13.5416H19.0625Z"
-                      fill="black"
-                      fill-opacity="0.9"
-                    />
-                    <path
-                      d="M23.125 15.4166C23.125 15.7618 22.8452 16.0416 22.5 16.0416C22.1548 16.0416 21.875 15.7618 21.875 15.4166C21.875 15.0714 22.1548 14.7916 22.5 14.7916C22.8452 14.7916 23.125 15.0714 23.125 15.4166Z"
-                      fill="#FFB646"
-                    />
-                    <path
-                      d="M23.75 28.2291C24.0952 28.2291 24.375 27.9493 24.375 27.6041C24.375 27.259 24.0952 26.9791 23.75 26.9791H21.25C20.9048 26.9791 20.625 27.259 20.625 27.6041C20.625 27.9493 20.9048 28.2291 21.25 28.2291H23.75Z"
-                      fill="#FFB646"
-                    />
-                  </g>
-                  <defs>
-                    <filter
-                      id="filter0_dd_567_173"
-                      x="0"
-                      y="-4.071e-05"
-                      width="45"
-                      height="45"
-                      filterUnits="userSpaceOnUse"
-                      color-interpolation-filters="sRGB"
-                    >
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha"
-                      />
-                      <feMorphology
-                        radius="0.833333"
-                        operator="erode"
-                        in="SourceAlpha"
-                        result="effect1_dropShadow_567_173"
-                      />
-                      <feOffset dy="0.833333" />
-                      <feGaussianBlur stdDeviation="0.833333" />
-                      <feComposite in2="hardAlpha" operator="out" />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="BackgroundImageFix"
-                        result="effect1_dropShadow_567_173"
-                      />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha"
-                      />
-                      <feOffset dy="0.833333" />
-                      <feGaussianBlur stdDeviation="1.25" />
-                      <feComposite in2="hardAlpha" operator="out" />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="effect1_dropShadow_567_173"
-                        result="effect2_dropShadow_567_173"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in="SourceGraphic"
-                        in2="effect2_dropShadow_567_173"
-                        result="shape"
-                      />
-                    </filter>
-                    <clipPath id="clip0_567_173">
-                      <rect
-                        width="20"
-                        height="20"
-                        fill="white"
-                        transform="translate(12.5 11.6666)"
-                      />
-                    </clipPath>
-                  </defs>
-                </svg>
-
-                <h3>Mobile Apps<br />design</h3>
-                <span class="corner-arrow">↗</span>
-              </article>
-              <article class="service-card">
-                <svg
-                  width="45"
-                  height="45"
-                  viewBox="0 0 45 45"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    x="2.5"
-                    y="1.66663"
-                    width="40"
-                    height="40"
-                    rx="20"
-                    fill="white"
-                  />
-                  <g filter="url(#filter0_dd_567_185)">
-                    <rect
-                      x="2.5"
-                      y="1.66663"
-                      width="40"
-                      height="40"
-                      rx="20"
-                      fill="white"
-                      fill-opacity="0.01"
-                      shape-rendering="crispEdges"
-                    />
-                  </g>
-                  <g clip-path="url(#clip0_567_185)">
-                    <mask
-                      id="mask0_567_185"
-                      style="mask-type: luminance"
-                      maskUnits="userSpaceOnUse"
-                      x="12"
-                      y="11"
-                      width="21"
-                      height="21"
-                    >
-                      <path
-                        d="M32.5 11.6666H12.5V31.6666H32.5V11.6666Z"
-                        fill="white"
-                      />
-                    </mask>
-                    <g mask="url(#mask0_567_185)">
-                      <path
-                        d="M31.875 31.6666H18.125C17.9592 31.6666 17.8003 31.6008 17.6831 31.4835C17.5658 31.3664 17.5 31.2074 17.5 31.0416V20.4166C17.5 20.2509 17.5658 20.0919 17.6831 19.9747C17.8003 19.8575 17.9592 19.7916 18.125 19.7916H31.875C32.0407 19.7916 32.1997 19.8575 32.3169 19.9747C32.4342 20.0919 32.5 20.2509 32.5 20.4166V31.0416C32.5 31.2074 32.4342 31.3664 32.3169 31.4835C32.1997 31.6008 32.0407 31.6666 31.875 31.6666ZM18.75 30.4166H31.25V21.0416H18.75V30.4166Z"
-                        fill="black"
-                        fill-opacity="0.9"
-                      />
-                      <path
-                        d="M18.125 26.6666H15C14.337 26.6666 13.7011 26.4032 13.2322 25.9344C12.7634 25.4655 12.5 24.8296 12.5 24.1666V14.1666C12.5 13.5036 12.7634 12.8677 13.2322 12.3989C13.7011 11.93 14.337 11.6666 15 11.6666H21.25C21.913 11.6666 22.5489 11.93 23.0177 12.3989C23.4866 12.8677 23.75 13.5036 23.75 14.1666V17.9166C23.75 18.0824 23.6842 18.2414 23.5669 18.3586C23.4497 18.4758 23.2907 18.5416 23.125 18.5416C22.9592 18.5416 22.8003 18.4758 22.6831 18.3586C22.5658 18.2414 22.5 18.0824 22.5 17.9166V14.1666C22.5 13.8351 22.3683 13.5172 22.1339 13.2827C21.8995 13.0483 21.5815 12.9166 21.25 12.9166H15C14.6685 12.9166 14.3505 13.0483 14.1161 13.2827C13.8817 13.5172 13.75 13.8351 13.75 14.1666V24.1666C13.75 24.4981 13.8817 24.8161 14.1161 25.0505C14.3505 25.285 14.6685 25.4166 15 25.4166H18.125C18.2908 25.4166 18.4497 25.4825 18.5669 25.5997C18.6842 25.7169 18.75 25.8759 18.75 26.0416C18.75 26.2074 18.6842 26.3664 18.5669 26.4835C18.4497 26.6008 18.2908 26.6666 18.125 26.6666Z"
-                        fill="black"
-                        fill-opacity="0.9"
-                      />
-                      <path
-                        d="M16.875 18.5416C16.3777 18.5416 15.9008 18.3441 15.5492 17.9925C15.1975 17.6408 15 17.1639 15 16.6666V14.7916C15 14.6259 15.0659 14.4669 15.1831 14.3497C15.3003 14.2325 15.4592 14.1666 15.625 14.1666C15.7908 14.1666 15.9497 14.2325 16.0669 14.3497C16.1842 14.4669 16.25 14.6259 16.25 14.7916V16.6666C16.25 16.8324 16.3158 16.9914 16.4331 17.1086C16.5503 17.2258 16.7092 17.2916 16.875 17.2916C17.0408 17.2916 17.1997 17.2258 17.3169 17.1086C17.4341 16.9914 17.5 16.8324 17.5 16.6666V14.7916C17.5 14.6259 17.5658 14.4669 17.6831 14.3497C17.8003 14.2325 17.9592 14.1666 18.125 14.1666C18.2908 14.1666 18.4497 14.2325 18.5669 14.3497C18.6841 14.4669 18.75 14.6259 18.75 14.7916V16.6666C18.75 17.1639 18.5525 17.6408 18.2008 17.9925C17.8492 18.3441 17.3723 18.5416 16.875 18.5416Z"
-                        fill="black"
-                        fill-opacity="0.9"
-                      />
-                      <path
-                        d="M21.875 26.6666C21.3777 26.6666 20.9008 26.469 20.5492 26.1175C20.1975 25.7658 20 25.2889 20 24.7916V22.9166C20 22.7509 20.0659 22.5919 20.1831 22.4747C20.3003 22.3575 20.4592 22.2916 20.625 22.2916C20.7908 22.2916 20.9498 22.3575 21.0669 22.4747C21.1842 22.5919 21.25 22.7509 21.25 22.9166V24.7916C21.25 24.9574 21.3158 25.1164 21.4331 25.2335C21.5502 25.3508 21.7092 25.4166 21.875 25.4166C22.0408 25.4166 22.1998 25.3508 22.3169 25.2335C22.4342 25.1164 22.5 24.9574 22.5 24.7916V22.9166C22.5 22.7509 22.5658 22.5919 22.6831 22.4747C22.8002 22.3575 22.9592 22.2916 23.125 22.2916C23.2908 22.2916 23.4497 22.3575 23.5669 22.4747C23.6842 22.5919 23.75 22.7509 23.75 22.9166V24.7916C23.75 25.2889 23.5524 25.7658 23.2008 26.1175C22.8492 26.469 22.3722 26.6666 21.875 26.6666Z"
-                        fill="#FFB646"
-                      />
-                      <path
-                        d="M20.625 18.5416C20.4592 18.5416 20.3003 18.4758 20.1831 18.3586C20.0659 18.2414 20 18.0824 20 17.9166V14.7916C20 14.6259 20.0659 14.4669 20.1831 14.3497C20.3003 14.2325 20.4592 14.1666 20.625 14.1666C20.7908 14.1666 20.9498 14.2325 21.0669 14.3497C21.1842 14.4669 21.25 14.6259 21.25 14.7916V17.9166C21.25 18.0824 21.1842 18.2414 21.0669 18.3586C20.9498 18.4758 20.7908 18.5416 20.625 18.5416Z"
-                        fill="black"
-                        fill-opacity="0.9"
-                      />
-                      <path
-                        d="M27.4996 26.6666C27.4057 26.6662 27.3131 26.6446 27.2287 26.6035C27.1444 26.5624 27.0703 26.5028 27.0122 26.4291L24.5121 23.3041C24.4254 23.1737 24.3908 23.0156 24.4152 22.8609C24.4396 22.7062 24.5211 22.5663 24.6437 22.4689C24.7663 22.3715 24.921 22.3236 25.0771 22.3347C25.2333 22.3459 25.3796 22.4152 25.4871 22.5291L27.9871 25.6541C28.0597 25.7461 28.1051 25.8566 28.118 25.9731C28.1308 26.0895 28.1107 26.2072 28.0599 26.3128C28.0091 26.4183 27.9296 26.5075 27.8305 26.5701C27.7314 26.6326 27.6168 26.6661 27.4996 26.6666Z"
-                        fill="#FFB646"
-                      />
-                      <path
-                        d="M25.0004 26.6666C24.8833 26.6661 24.7686 26.6326 24.6695 26.57C24.5704 26.5075 24.491 26.4184 24.4402 26.3128C24.3893 26.2072 24.3692 26.0895 24.3821 25.973C24.3949 25.8565 24.4403 25.746 24.5129 25.6541L27.0129 22.5291C27.0608 22.457 27.1232 22.3957 27.196 22.349C27.2688 22.3023 27.3507 22.2712 27.4361 22.2577C27.5216 22.2443 27.609 22.2487 27.6927 22.2708C27.7763 22.2928 27.8546 22.332 27.9223 22.3859C27.9901 22.4397 28.0458 22.507 28.0863 22.5836C28.1266 22.6601 28.1507 22.7443 28.1568 22.8306C28.163 22.9169 28.1512 23.0035 28.1221 23.0851C28.093 23.1666 28.0473 23.2412 27.9879 23.3041L25.4879 26.4291C25.4297 26.5028 25.3557 26.5624 25.2713 26.6035C25.1868 26.6446 25.0943 26.6662 25.0004 26.6666Z"
-                        fill="#FFB646"
-                      />
-                      <path
-                        d="M21.875 29.1666H20.625C20.4592 29.1666 20.3003 29.1008 20.1831 28.9835C20.0659 28.8664 20 28.7074 20 28.5416C20 28.3759 20.0659 28.2169 20.1831 28.0997C20.3003 27.9825 20.4592 27.9166 20.625 27.9166H21.875C22.0408 27.9166 22.1998 27.9825 22.3169 28.0997C22.4342 28.2169 22.5 28.3759 22.5 28.5416C22.5 28.7074 22.4342 28.8664 22.3169 28.9835C22.1998 29.1008 22.0408 29.1666 21.875 29.1666Z"
-                        fill="black"
-                        fill-opacity="0.9"
-                      />
-                      <path
-                        d="M29.375 29.1666H24.375C24.2093 29.1666 24.0502 29.1008 23.9331 28.9835C23.8158 28.8664 23.75 28.7074 23.75 28.5416C23.75 28.3759 23.8158 28.2169 23.9331 28.0997C24.0502 27.9825 24.2093 27.9166 24.375 27.9166H29.375C29.5408 27.9166 29.6997 27.9825 29.8169 28.0997C29.9342 28.2169 30 28.3759 30 28.5416C30 28.7074 29.9342 28.8664 29.8169 28.9835C29.6997 29.1008 29.5408 29.1666 29.375 29.1666Z"
-                        fill="black"
-                        fill-opacity="0.9"
-                      />
-                    </g>
-                  </g>
-                  <defs>
-                    <filter
-                      id="filter0_dd_567_185"
-                      x="0"
-                      y="-4.071e-05"
-                      width="45"
-                      height="45"
-                      filterUnits="userSpaceOnUse"
-                      color-interpolation-filters="sRGB"
-                    >
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha"
-                      />
-                      <feMorphology
-                        radius="0.833333"
-                        operator="erode"
-                        in="SourceAlpha"
-                        result="effect1_dropShadow_567_185"
-                      />
-                      <feOffset dy="0.833333" />
-                      <feGaussianBlur stdDeviation="0.833333" />
-                      <feComposite in2="hardAlpha" operator="out" />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="BackgroundImageFix"
-                        result="effect1_dropShadow_567_185"
-                      />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha"
-                      />
-                      <feOffset dy="0.833333" />
-                      <feGaussianBlur stdDeviation="1.25" />
-                      <feComposite in2="hardAlpha" operator="out" />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="effect1_dropShadow_567_185"
-                        result="effect2_dropShadow_567_185"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in="SourceGraphic"
-                        in2="effect2_dropShadow_567_185"
-                        result="shape"
-                      />
-                    </filter>
-                    <clipPath id="clip0_567_185">
-                      <rect
-                        width="20"
-                        height="20"
-                        fill="white"
-                        transform="translate(12.5 11.6666)"
-                      />
-                    </clipPath>
-                  </defs>
-                </svg>
-
-                <h3>UI/UX<br />design</h3>
-                <span class="corner-arrow">↗</span>
-              </article>
-              <article class="service-card">
-                <svg
-                  width="45"
-                  height="45"
-                  viewBox="0 0 45 45"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    x="2.5"
-                    y="1.66663"
-                    width="40"
-                    height="40"
-                    rx="20"
-                    fill="white"
-                  />
-                  <g filter="url(#filter0_dd_567_207)">
-                    <rect
-                      x="2.5"
-                      y="1.66663"
-                      width="40"
-                      height="40"
-                      rx="20"
-                      fill="white"
-                      fill-opacity="0.01"
-                      shape-rendering="crispEdges"
-                    />
-                  </g>
-                  <g clip-path="url(#clip0_567_207)">
-                    <mask
-                      id="mask0_567_207"
-                      style="mask-type: luminance"
-                      maskUnits="userSpaceOnUse"
-                      x="12"
-                      y="11"
-                      width="21"
-                      height="21"
-                    >
-                      <path
-                        d="M32.5 11.6666H12.5V31.6666H32.5V11.6666Z"
-                        fill="white"
-                      />
-                    </mask>
-                    <g mask="url(#mask0_567_207)">
-                      <path
-                        d="M16.7188 15.1823C16.9776 15.1823 17.1875 14.9724 17.1875 14.7135C17.1875 14.4546 16.9776 14.2448 16.7188 14.2448C16.4599 14.2448 16.25 14.4546 16.25 14.7135C16.25 14.9724 16.4599 15.1823 16.7188 15.1823Z"
-                        fill="black"
-                        fill-opacity="0.9"
-                      />
-                      <path
-                        d="M18.4343 15.1823C18.6932 15.1823 18.9031 14.9724 18.9031 14.7135C18.9031 14.4546 18.6932 14.2448 18.4343 14.2448C18.1754 14.2448 17.9656 14.4546 17.9656 14.7135C17.9656 14.9724 18.1754 15.1823 18.4343 15.1823Z"
-                        fill="black"
-                        fill-opacity="0.9"
-                      />
-                      <path
-                        d="M20 15.1823C20.2589 15.1823 20.4688 14.9724 20.4688 14.7135C20.4688 14.4546 20.2589 14.2448 20 14.2448C19.7411 14.2448 19.5312 14.4546 19.5312 14.7135C19.5312 14.9724 19.7411 15.1823 20 15.1823Z"
-                        fill="black"
-                        fill-opacity="0.9"
-                      />
-                      <path
-                        d="M25.7422 23.7825C26.0011 23.7825 26.2109 23.5726 26.2109 23.3137C26.2109 23.0549 26.0011 22.845 25.7422 22.845C25.4833 22.845 25.2734 23.0549 25.2734 23.3137C25.2734 23.5726 25.4833 23.7825 25.7422 23.7825Z"
-                        fill="#FFB646"
-                      />
-                      <path
-                        d="M13.75 19.2229C13.4913 19.2229 13.2812 19.0129 13.2812 18.7541V15.4166C13.2812 13.7773 14.6106 12.4479 16.25 12.4479H23.9075C24.1663 12.4479 24.3763 12.6579 24.3763 12.9166C24.3763 13.1754 24.1663 13.3854 23.9075 13.3854H16.25C15.1281 13.3854 14.2188 14.2948 14.2188 15.4166V18.7541C14.2188 19.0129 14.0088 19.2229 13.75 19.2229Z"
-                        fill="black"
-                        fill-opacity="0.9"
-                      />
-                      <path
-                        d="M28.75 30.8854H16.25C14.6106 30.8854 13.2812 29.556 13.2812 27.9166V22.1354C13.2812 21.8766 13.4913 21.6666 13.75 21.6666C14.0088 21.6666 14.2188 21.8766 14.2188 22.1354V27.9166C14.2188 29.0385 15.1281 29.9479 16.25 29.9479H28.75C29.8719 29.9479 30.7813 29.0385 30.7813 27.9166V23.3216C30.7813 23.0629 30.9913 22.8529 31.25 22.8529C31.5088 22.8529 31.7188 23.0629 31.7188 23.3216V27.9166C31.7188 29.556 30.3894 30.8854 28.75 30.8854Z"
-                        fill="black"
-                        fill-opacity="0.9"
-                      />
-                      <path
-                        d="M22.6513 17.1361H13.75V16.1986H22.6513C22.91 16.1986 23.12 16.4086 23.12 16.6674C23.12 16.9261 22.91 17.1361 22.6513 17.1361Z"
-                        fill="black"
-                        fill-opacity="0.9"
-                      />
-                      <path
-                        d="M30 21.5104H26.25C25.3018 21.5104 24.5312 20.7398 24.5312 19.7916V16.6666C24.5312 15.7185 25.3018 14.9479 26.25 14.9479H30C30.9481 14.9479 31.7188 15.7185 31.7188 16.6666V19.7916C31.7188 20.7398 30.9481 21.5104 30 21.5104ZM26.25 15.8854C25.8193 15.8854 25.4688 16.236 25.4688 16.6666V19.7916C25.4688 20.2222 25.8193 20.5729 26.25 20.5729H30C30.4306 20.5729 30.7812 20.2222 30.7812 19.7916V16.6666C30.7812 16.236 30.4306 15.8854 30 15.8854H26.25Z"
-                        fill="#FFB646"
-                      />
-                      <path
-                        d="M28.5938 15.8854H26.875C25.9268 15.8854 25.1562 15.1148 25.1562 14.1666C25.1562 13.2185 25.9268 12.4479 26.875 12.4479C27.8231 12.4479 28.5938 13.2185 28.5938 14.1666V15.8854ZM26.875 13.3854C26.4443 13.3854 26.0938 13.736 26.0938 14.1666C26.0938 14.5973 26.4443 14.9479 26.875 14.9479H27.6562V14.1666C27.6562 13.736 27.3056 13.3854 26.875 13.3854Z"
-                        fill="#FFB646"
-                      />
-                      <path
-                        d="M29.375 15.8854H27.6562V14.1666C27.6562 13.2185 28.4268 12.4479 29.375 12.4479C30.3231 12.4479 31.0938 13.2185 31.0938 14.1666C31.0938 15.1148 30.3231 15.8854 29.375 15.8854ZM28.5938 14.9479H29.375C29.8056 14.9479 30.1562 14.5973 30.1562 14.1666C30.1562 13.736 29.8056 13.3854 29.375 13.3854C28.9443 13.3854 28.5938 13.736 28.5938 14.1666V14.9479Z"
-                        fill="#FFB646"
-                      />
-                      <path
-                        d="M27.6562 15.4166H28.5938V21.0416H27.6562V15.4166Z"
-                        fill="#FFB646"
-                      />
-                      <path
-                        d="M17.5195 29.0526C16.5714 29.0526 15.8008 28.2819 15.8008 27.3339C15.8008 26.3857 16.5714 25.6151 17.5195 25.6151C18.4677 25.6151 19.2383 26.3857 19.2383 27.3339C19.2383 28.2819 18.4677 29.0526 17.5195 29.0526ZM17.5195 26.5526C17.0889 26.5526 16.7383 26.9032 16.7383 27.3339C16.7383 27.7644 17.0889 28.1151 17.5195 28.1151C17.9502 28.1151 18.3008 27.7644 18.3008 27.3339C18.3008 26.9032 17.9502 26.5526 17.5195 26.5526Z"
-                        fill="black"
-                        fill-opacity="0.9"
-                      />
-                      <path
-                        d="M21.9726 29.0526C21.0245 29.0526 20.2539 28.2819 20.2539 27.3339C20.2539 26.3857 21.0245 25.6151 21.9726 25.6151C22.9208 25.6151 23.6914 26.3857 23.6914 27.3339C23.6914 28.2819 22.9208 29.0526 21.9726 29.0526ZM21.9726 26.5526C21.542 26.5526 21.1914 26.9032 21.1914 27.3339C21.1914 27.7644 21.542 28.1151 21.9726 28.1151C22.4033 28.1151 22.7539 27.7644 22.7539 27.3339C22.7539 26.9032 22.4033 26.5526 21.9726 26.5526Z"
-                        fill="black"
-                        fill-opacity="0.9"
-                      />
-                      <path
-                        d="M28.5508 24.7362H25.739C25.4801 24.7362 25.2703 24.9461 25.2703 25.205C25.2703 25.4639 25.4801 25.6737 25.739 25.6737H28.5508C28.8098 25.6737 29.0196 25.4639 29.0196 25.205C29.0196 24.9461 28.8098 24.7362 28.5508 24.7362Z"
-                        fill="black"
-                        fill-opacity="0.9"
-                      />
-                      <path
-                        d="M28.5508 26.6276H25.739C25.4801 26.6276 25.2703 26.8374 25.2703 27.0963C25.2703 27.3551 25.4801 27.5651 25.739 27.5651H28.5508C28.8098 27.5651 29.0196 27.3551 29.0196 27.0963C29.0196 26.8374 28.8098 26.6276 28.5508 26.6276Z"
-                        fill="black"
-                        fill-opacity="0.9"
-                      />
-                      <path
-                        d="M22.4319 26.5523H16.6581C16.1006 26.5523 15.6325 26.1335 15.5713 25.5798L15.0544 20.9348H13.75C13.4913 20.9348 13.2812 20.7248 13.2812 20.466C13.2812 20.2073 13.4913 19.9973 13.75 19.9973H15.5956C15.7644 19.9973 15.9063 20.1242 15.925 20.2917L16.0306 21.241H22.8781C23.1956 21.241 23.4969 21.3785 23.7044 21.618C23.9125 21.858 24.0056 22.1755 23.9613 22.4898L23.5144 25.6135C23.4375 26.1523 22.9756 26.5523 22.4319 26.5523ZM16.135 22.1785L16.5025 25.476C16.5113 25.5555 16.5781 25.6148 16.6575 25.6148H22.4319C22.5094 25.6148 22.5756 25.5573 22.5863 25.481L23.0331 22.3573C23.0419 22.2955 23.0138 22.253 22.9963 22.233C22.9788 22.213 22.9406 22.1792 22.8781 22.1792H16.1356L16.135 22.1785Z"
-                        fill="black"
-                        fill-opacity="0.9"
-                      />
-                    </g>
-                  </g>
-                  <defs>
-                    <filter
-                      id="filter0_dd_567_207"
-                      x="0"
-                      y="-4.071e-05"
-                      width="45"
-                      height="45"
-                      filterUnits="userSpaceOnUse"
-                      color-interpolation-filters="sRGB"
-                    >
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha"
-                      />
-                      <feMorphology
-                        radius="0.833333"
-                        operator="erode"
-                        in="SourceAlpha"
-                        result="effect1_dropShadow_567_207"
-                      />
-                      <feOffset dy="0.833333" />
-                      <feGaussianBlur stdDeviation="0.833333" />
-                      <feComposite in2="hardAlpha" operator="out" />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="BackgroundImageFix"
-                        result="effect1_dropShadow_567_207"
-                      />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha"
-                      />
-                      <feOffset dy="0.833333" />
-                      <feGaussianBlur stdDeviation="1.25" />
-                      <feComposite in2="hardAlpha" operator="out" />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="effect1_dropShadow_567_207"
-                        result="effect2_dropShadow_567_207"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in="SourceGraphic"
-                        in2="effect2_dropShadow_567_207"
-                        result="shape"
-                      />
-                    </filter>
-                    <clipPath id="clip0_567_207">
-                      <rect
-                        width="20"
-                        height="20"
-                        fill="white"
-                        transform="translate(12.5 11.6666)"
-                      />
-                    </clipPath>
-                  </defs>
-                </svg>
-
-                <h3>Website<br />design</h3>
-                <span class="corner-arrow">↗</span>
-              </article>
-              <article class="service-card">
-                <svg
-                  width="45"
-                  height="45"
-                  viewBox="0 0 45 45"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    x="2.5"
-                    y="1.66663"
-                    width="40"
-                    height="40"
-                    rx="20"
-                    fill="white"
-                  />
-                  <g filter="url(#filter0_dd_567_236)">
-                    <rect
-                      x="2.5"
-                      y="1.66663"
-                      width="40"
-                      height="40"
-                      rx="20"
-                      fill="white"
-                      fill-opacity="0.01"
-                      shape-rendering="crispEdges"
-                    />
-                  </g>
-                  <path
-                    d="M21.2496 26.4586C21.139 26.4585 21.0304 26.4291 20.935 26.3734C20.8395 26.3177 20.7605 26.2376 20.706 26.1414C20.6516 26.0452 20.6236 25.9362 20.6251 25.8257C20.6265 25.7151 20.6572 25.6069 20.7141 25.5121L23.2141 21.3454C23.2563 21.275 23.312 21.2136 23.3779 21.1647C23.4439 21.1158 23.5188 21.0803 23.5985 21.0603C23.6782 21.0404 23.7609 21.0363 23.8422 21.0484C23.9234 21.0604 24.0014 21.0884 24.0718 21.1306C24.1422 21.1728 24.2037 21.2285 24.2526 21.2944C24.3015 21.3604 24.337 21.4353 24.3569 21.515C24.3768 21.5946 24.3809 21.6774 24.3689 21.7587C24.3568 21.8398 24.3289 21.9179 24.2867 21.9883L21.7867 26.155C21.731 26.2477 21.6523 26.3244 21.5582 26.3776C21.464 26.4308 21.3577 26.4587 21.2496 26.4586Z"
-                    fill="#FFB646"
-                  />
-                  <path
-                    d="M19.1666 26.4578C19.0203 26.4582 18.8785 26.4068 18.7662 26.313L16.2662 24.2297C16.1959 24.1709 16.1394 24.0975 16.1006 24.0146C16.0617 23.9316 16.0416 23.8411 16.0416 23.7495C16.0416 23.6579 16.0617 23.5674 16.1006 23.4845C16.1394 23.4015 16.1959 23.3281 16.2662 23.2694L18.7662 21.1861C18.8937 21.0805 19.0577 21.0298 19.2224 21.045C19.3872 21.0602 19.5392 21.1401 19.6451 21.2672C19.7511 21.3942 19.8023 21.5581 19.7877 21.7229C19.7731 21.8877 19.6937 22.0399 19.567 22.1463L17.6432 23.7495L19.567 25.3527C19.6657 25.4349 19.7367 25.5456 19.7702 25.6696C19.8038 25.7937 19.7983 25.925 19.7545 26.0457C19.7108 26.1665 19.6309 26.2709 19.5257 26.3447C19.4205 26.4184 19.2951 26.4579 19.1666 26.4578Z"
-                    fill="#FFB646"
-                  />
-                  <path
-                    d="M25.8319 26.4581C25.7035 26.4582 25.5781 26.4187 25.4729 26.3449C25.3677 26.2712 25.2877 26.1668 25.244 26.046C25.2002 25.9253 25.1948 25.7939 25.2283 25.6699C25.2619 25.5459 25.3328 25.4353 25.4315 25.353L27.3553 23.7498L25.4315 22.1466C25.3682 22.0941 25.3157 22.0297 25.2773 21.9569C25.239 21.8841 25.2153 21.8045 25.2077 21.7225C25.2002 21.6406 25.2088 21.558 25.2332 21.4794C25.2577 21.4009 25.2974 21.3279 25.3501 21.2647C25.4028 21.2015 25.4675 21.1494 25.5404 21.1112C25.6132 21.073 25.693 21.0496 25.7749 21.0424C25.8569 21.0351 25.9395 21.044 26.018 21.0688C26.0965 21.0934 26.1693 21.1334 26.2323 21.1864L28.7323 23.2697C28.8027 23.3284 28.8592 23.4018 28.898 23.4848C28.9368 23.5677 28.9569 23.6582 28.9569 23.7498C28.9569 23.8414 28.9368 23.9319 28.898 24.0149C28.8592 24.0978 28.8027 24.1713 28.7323 24.2299L26.2323 26.3133C26.1201 26.4072 25.9782 26.4584 25.8319 26.4581Z"
-                    fill="#FFB646"
-                  />
-                  <path
-                    d="M30 29.7916H15C14.6133 29.7911 14.2427 29.6374 13.9693 29.364C13.6959 29.0905 13.5421 28.72 13.5416 28.3333V15C13.5421 14.6133 13.6959 14.2427 13.9693 13.9693C14.2427 13.6959 14.6133 13.5421 15 13.5416H30C30.3866 13.5421 30.7572 13.6959 31.0306 13.9693C31.304 14.2427 31.4578 14.6133 31.4583 15V28.3333C31.4578 28.72 31.304 29.0905 31.0306 29.364C30.7572 29.6374 30.3866 29.7911 30 29.7916ZM15 14.7916C14.9447 14.7917 14.8918 14.8137 14.8528 14.8528C14.8137 14.8918 14.7917 14.9447 14.7916 15V28.3333C14.7917 28.3885 14.8137 28.4415 14.8528 28.4805C14.8918 28.5195 14.9447 28.5415 15 28.5416H30C30.0552 28.5415 30.1081 28.5195 30.1471 28.4805C30.1862 28.4415 30.2082 28.3885 30.2083 28.3333V15C30.2082 14.9447 30.1862 14.8918 30.1471 14.8528C30.1081 14.8137 30.0552 14.7917 30 14.7916H15Z"
-                    fill="black"
-                    fill-opacity="0.9"
-                  />
-                  <path
-                    d="M30.8333 18.9583H14.1666C14.0009 18.9583 13.8419 18.8924 13.7247 18.7752C13.6075 18.658 13.5416 18.499 13.5416 18.3333C13.5416 18.1675 13.6075 18.0085 13.7247 17.8913C13.8419 17.7741 14.0009 17.7083 14.1666 17.7083H30.8333C30.999 17.7083 31.158 17.7741 31.2752 17.8913C31.3925 18.0085 31.4583 18.1675 31.4583 18.3333C31.4583 18.499 31.3925 18.658 31.2752 18.7752C31.158 18.8924 30.999 18.9583 30.8333 18.9583Z"
-                    fill="black"
-                    fill-opacity="0.9"
-                  />
-                  <path
-                    d="M16.6667 17.0833C17.1269 17.0833 17.5 16.7102 17.5 16.25C17.5 15.7897 17.1269 15.4166 16.6667 15.4166C16.2065 15.4166 15.8334 15.7897 15.8334 16.25C15.8334 16.7102 16.2065 17.0833 16.6667 17.0833Z"
-                    fill="black"
-                    fill-opacity="0.9"
-                  />
-                  <path
-                    d="M19.1667 17.0833C19.6269 17.0833 20 16.7102 20 16.25C20 15.7897 19.6269 15.4166 19.1667 15.4166C18.7065 15.4166 18.3334 15.7897 18.3334 16.25C18.3334 16.7102 18.7065 17.0833 19.1667 17.0833Z"
-                    fill="black"
-                    fill-opacity="0.9"
-                  />
-                  <path
-                    d="M21.6667 17.0833C22.127 17.0833 22.5 16.7102 22.5 16.25C22.5 15.7897 22.127 15.4166 21.6667 15.4166C21.2065 15.4166 20.8334 15.7897 20.8334 16.25C20.8334 16.7102 21.2065 17.0833 21.6667 17.0833Z"
-                    fill="black"
-                    fill-opacity="0.9"
-                  />
-                  <defs>
-                    <filter
-                      id="filter0_dd_567_236"
-                      x="0"
-                      y="-4.071e-05"
-                      width="45"
-                      height="45"
-                      filterUnits="userSpaceOnUse"
-                      color-interpolation-filters="sRGB"
-                    >
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha"
-                      />
-                      <feMorphology
-                        radius="0.833333"
-                        operator="erode"
-                        in="SourceAlpha"
-                        result="effect1_dropShadow_567_236"
-                      />
-                      <feOffset dy="0.833333" />
-                      <feGaussianBlur stdDeviation="0.833333" />
-                      <feComposite in2="hardAlpha" operator="out" />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="BackgroundImageFix"
-                        result="effect1_dropShadow_567_236"
-                      />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha"
-                      />
-                      <feOffset dy="0.833333" />
-                      <feGaussianBlur stdDeviation="1.25" />
-                      <feComposite in2="hardAlpha" operator="out" />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="effect1_dropShadow_567_236"
-                        result="effect2_dropShadow_567_236"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in="SourceGraphic"
-                        in2="effect2_dropShadow_567_236"
-                        result="shape"
-                      />
-                    </filter>
-                  </defs>
-                </svg>
-
-                <h3>Framer<br />development</h3>
-                <span class="corner-arrow">↗</span>
-              </article>
-              <article class="service-card">
-                <svg
-                  width="45"
-                  height="45"
-                  viewBox="0 0 45 45"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    x="2.5"
-                    y="1.66663"
-                    width="40"
-                    height="40"
-                    rx="20"
-                    fill="white"
-                  />
-                  <g filter="url(#filter0_dd_567_253)">
-                    <rect
-                      x="2.5"
-                      y="1.66663"
-                      width="40"
-                      height="40"
-                      rx="20"
-                      fill="white"
-                      fill-opacity="0.01"
-                      shape-rendering="crispEdges"
-                    />
-                  </g>
-                  <g clip-path="url(#clip0_567_253)">
-                    <mask
-                      id="mask0_567_253"
-                      style="mask-type: luminance"
-                      maskUnits="userSpaceOnUse"
-                      x="12"
-                      y="11"
-                      width="21"
-                      height="21"
-                    >
-                      <path
-                        d="M32.5 11.6666H12.5V31.6666H32.5V11.6666Z"
-                        fill="white"
-                      />
-                    </mask>
-                    <g mask="url(#mask0_567_253)">
-                      <path
-                        d="M17.9297 16.901C17.0897 16.901 16.4062 16.2176 16.4062 15.3776C16.4062 14.5375 17.0897 13.8541 17.9297 13.8541C18.7697 13.8541 19.4531 14.5375 19.4531 15.3776C19.4531 16.2176 18.7697 16.901 17.9297 16.901ZM17.9297 14.7135C17.5635 14.7135 17.2656 15.0114 17.2656 15.3776C17.2656 15.7437 17.5635 16.0416 17.9297 16.0416C18.2959 16.0416 18.5938 15.7437 18.5938 15.3776C18.5938 15.0114 18.2959 14.7135 17.9297 14.7135Z"
-                        fill="#FFB646"
-                      />
-                      <path
-                        d="M15.7617 29.9479C14.9217 29.9479 14.2383 29.2645 14.2383 28.4245C14.2383 27.5844 14.9217 26.901 15.7617 26.901C16.6018 26.901 17.2852 27.5844 17.2852 28.4245C17.2852 29.2645 16.6018 29.9479 15.7617 29.9479ZM15.7617 27.7604C15.3955 27.7604 15.0977 28.0583 15.0977 28.4245C15.0977 28.7907 15.3955 29.0885 15.7617 29.0885C16.1279 29.0885 16.4258 28.7907 16.4258 28.4245C16.4258 28.0583 16.1279 27.7604 15.7617 27.7604Z"
-                        fill="#FFB646"
-                      />
-                      <path
-                        d="M27.0605 19.89C26.2204 19.89 25.5371 19.2066 25.5371 18.3666C25.5371 17.5265 26.2204 16.8431 27.0605 16.8431C27.9005 16.8431 28.5839 17.5265 28.5839 18.3666C28.5839 19.2066 27.9005 19.89 27.0605 19.89ZM27.0605 17.7025C26.6944 17.7025 26.3964 18.0004 26.3964 18.3666C26.3964 18.7327 26.6944 19.0306 27.0605 19.0306C27.4267 19.0306 27.7246 18.7327 27.7246 18.3666C27.7246 18.0004 27.4267 17.7025 27.0605 17.7025Z"
-                        fill="#FFB646"
-                      />
-                      <path
-                        d="M32.0703 14.6354H28.0859V12.0963C28.0859 11.859 27.8936 11.6666 27.6562 11.6666H14.6484C14.4111 11.6666 14.2188 11.859 14.2188 12.0963V23.4245H12.9297C12.6924 23.4245 12.5 23.6168 12.5 23.8541V31.237C12.5 31.4742 12.6924 31.6666 12.9297 31.6666H24.2188C24.4561 31.6666 24.6484 31.4742 24.6484 31.237V29.4791H27.6562C27.8936 29.4791 28.0859 29.2867 28.0859 29.0495V22.0963H32.0703C32.3076 22.0963 32.5 21.904 32.5 21.6666V15.0651C32.5 14.8278 32.3076 14.6354 32.0703 14.6354ZM23.7173 24.2838C23.5383 24.8059 23.0429 25.1823 22.4609 25.1823H14.6875C14.1055 25.1823 13.6102 24.8059 13.4311 24.2838H23.7173ZM13.3594 30.8073V25.5906C13.7279 25.8732 14.1883 26.0416 14.6875 26.0416H22.4609C22.9601 26.0416 23.4205 25.8732 23.7891 25.5906V30.8073H13.3594ZM27.2266 28.6198H24.6484V23.8541C24.6484 23.6168 24.4561 23.4245 24.2188 23.4245H15.0781V12.526H27.2266V14.6354H22.0492C21.8118 14.6354 21.6194 14.8278 21.6194 15.0651V21.6666C21.6194 21.904 21.8118 22.0963 22.0492 22.0963H27.2266V28.6198ZM31.6407 21.237H22.4788V15.4948H31.6407V21.237Z"
-                        fill="black"
-                        fill-opacity="0.9"
-                      />
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M28.2123 14.5109H32.0717C32.378 14.5109 32.6264 14.7592 32.6264 15.0655V21.6671C32.6264 21.9734 32.378 22.2218 32.0717 22.2218H28.2123V29.0499C28.2123 29.3563 27.9639 29.6046 27.6576 29.6046H24.7748V31.2374C24.7748 31.5438 24.5264 31.7921 24.2201 31.7921H12.931C12.6247 31.7921 12.3763 31.5438 12.3763 31.2374V23.8546C12.3763 23.5483 12.6247 23.2999 12.931 23.2999H14.0951V12.0968C14.0951 11.7905 14.3434 11.5421 14.6498 11.5421H27.6576C27.9639 11.5421 28.2123 11.7905 28.2123 12.0968V14.5109ZM23.7187 24.2843H13.4324C13.4471 24.3269 13.4638 24.3687 13.4826 24.4093C13.6931 24.8654 14.1545 25.1827 14.6888 25.1827H22.4623C22.9967 25.1827 23.4581 24.8654 23.6685 24.4093C23.6873 24.3687 23.704 24.3269 23.7187 24.2843ZM23.5294 24.4093H13.6218C13.8228 24.7944 14.2258 25.0577 14.6888 25.0577H22.4623C22.9254 25.0577 23.3284 24.7944 23.5294 24.4093ZM13.4857 25.8284V30.6827H23.6654V25.8284C23.3148 26.043 22.9028 26.1671 22.4623 26.1671H14.6888C14.2484 26.1671 13.8364 26.043 13.4857 25.8284ZM13.3607 30.8077H23.7904V25.5911C23.7499 25.6223 23.7081 25.6519 23.6654 25.6802C23.32 25.9087 22.9065 26.0421 22.4623 26.0421H14.6888C14.2446 26.0421 13.8311 25.9087 13.4857 25.6802C13.443 25.6519 13.4013 25.6223 13.3607 25.5911V30.8077ZM24.7748 28.4952H27.1029V22.2218H22.0504C21.7441 22.2218 21.4958 21.9734 21.4958 21.6671V15.0655C21.4958 14.7592 21.7441 14.5109 22.0504 14.5109H27.1029V12.6515H15.2045V23.2999H24.2201C24.5264 23.2999 24.7748 23.5483 24.7748 23.8546V28.4952ZM22.6052 21.1124H31.5169V15.6202H22.6052V21.1124ZM32.0717 14.6359C32.3089 14.6359 32.5014 14.8282 32.5014 15.0655V21.6671C32.5014 21.9044 32.3089 22.0968 32.0717 22.0968H28.0873V29.0499C28.0873 29.2872 27.8949 29.4796 27.6576 29.4796H24.6498V31.2374C24.6498 31.4747 24.4574 31.6671 24.2201 31.6671H12.931C12.6937 31.6671 12.5013 31.4747 12.5013 31.2374V23.8546C12.5013 23.6173 12.6937 23.4249 12.931 23.4249H14.2201V12.0968C14.2201 11.8595 14.4125 11.6671 14.6498 11.6671H27.6576C27.8949 11.6671 28.0873 11.8595 28.0873 12.0968V14.6359H32.0717ZM27.2279 28.6202V22.0968H22.0504C21.8132 22.0968 21.6208 21.9044 21.6208 21.6671V15.0655C21.6208 14.8282 21.8132 14.6359 22.0504 14.6359H27.2279V12.5265H15.0795V23.4249H24.2201C24.4574 23.4249 24.6498 23.6173 24.6498 23.8546V28.6202H27.2279ZM31.6419 21.2374V15.4952H22.4802V21.2374H31.6419Z"
-                        fill="black"
-                        fill-opacity="0.9"
-                      />
-                    </g>
-                  </g>
-                  <defs>
-                    <filter
-                      id="filter0_dd_567_253"
-                      x="0"
-                      y="-4.071e-05"
-                      width="45"
-                      height="45"
-                      filterUnits="userSpaceOnUse"
-                      color-interpolation-filters="sRGB"
-                    >
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha"
-                      />
-                      <feMorphology
-                        radius="0.833333"
-                        operator="erode"
-                        in="SourceAlpha"
-                        result="effect1_dropShadow_567_253"
-                      />
-                      <feOffset dy="0.833333" />
-                      <feGaussianBlur stdDeviation="0.833333" />
-                      <feComposite in2="hardAlpha" operator="out" />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="BackgroundImageFix"
-                        result="effect1_dropShadow_567_253"
-                      />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha"
-                      />
-                      <feOffset dy="0.833333" />
-                      <feGaussianBlur stdDeviation="1.25" />
-                      <feComposite in2="hardAlpha" operator="out" />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="effect1_dropShadow_567_253"
-                        result="effect2_dropShadow_567_253"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in="SourceGraphic"
-                        in2="effect2_dropShadow_567_253"
-                        result="shape"
-                      />
-                    </filter>
-                    <clipPath id="clip0_567_253">
-                      <rect
-                        width="20"
-                        height="20"
-                        fill="white"
-                        transform="translate(12.5 11.6666)"
-                      />
-                    </clipPath>
-                  </defs>
-                </svg>
-
-                <h3>Brand<br />identity</h3>
-                <span class="corner-arrow">↗</span>
-              </article>
-              <article class="service-card">
-                <svg
-                  width="45"
-                  height="45"
-                  viewBox="0 0 45 45"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    x="2.5"
-                    y="1.66663"
-                    width="40"
-                    height="40"
-                    rx="20"
-                    fill="white"
-                  />
-                  <g filter="url(#filter0_dd_567_271)">
-                    <rect
-                      x="2.5"
-                      y="1.66663"
-                      width="40"
-                      height="40"
-                      rx="20"
-                      fill="white"
-                      fill-opacity="0.01"
-                      shape-rendering="crispEdges"
-                    />
-                  </g>
-                  <path
-                    d="M30.0634 12.495H21.9379C21.0488 12.495 20.3254 13.2183 20.3254 14.1074V20.3542L21.1136 19.6961V15.4684H30.8875V29.2257C30.8875 29.6802 30.5178 30.0499 30.0634 30.0499H21.9379C21.4834 30.0499 21.1136 29.6802 21.1136 29.2257V29.1792H20.3254V29.2257C20.3254 30.1148 21.0487 30.8381 21.9379 30.8381H30.0634C30.9524 30.8381 31.6758 30.1148 31.6758 29.2257V14.1074C31.6758 13.2183 30.9524 12.495 30.0634 12.495ZM21.1136 14.6803V14.1074C21.1136 13.6529 21.4834 13.2832 21.9379 13.2832H30.0634C30.5179 13.2832 30.8875 13.6529 30.8875 14.1074V14.6803H21.1136Z"
-                    fill="black"
-                    fill-opacity="0.9"
-                  />
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M20.2117 20.5992V14.1073C20.2117 13.1549 20.9864 12.3802 21.9387 12.3802H30.0643C31.0166 12.3802 31.7913 13.1549 31.7913 14.1073V29.2256C31.7913 30.178 31.0166 30.9526 30.0643 30.9526H21.9387C20.9863 30.9526 20.2117 30.178 20.2117 29.2256V29.0644H21.2291V29.2256C21.2291 29.6168 21.5475 29.9352 21.9387 29.9352H30.0642C30.4554 29.9352 30.7738 29.6168 30.7738 29.2256V15.583H21.2291V19.7496L20.2117 20.5992ZM20.3263 14.1073C20.3263 13.2182 21.0496 12.4949 21.9387 12.4949H30.0643C30.9533 12.4949 31.6766 13.2182 31.6766 14.1073V29.2256C31.6766 30.1147 30.9533 30.838 30.0643 30.838H21.9387C21.0724 30.838 20.3635 30.1513 20.3277 29.2937C20.3268 29.2711 20.3263 29.2485 20.3263 29.2256V29.179H21.1145V29.2256C21.1145 29.6801 21.4842 30.0498 21.9387 30.0498H30.0642C30.5187 30.0498 30.8884 29.6801 30.8884 29.2256V15.4683H21.1145V19.696L20.3263 20.3541V14.1073ZM21.2291 14.1073V14.5655H30.7738V14.1073C30.7738 13.7161 30.4554 13.3977 30.0643 13.3977H21.9387C21.5475 13.3977 21.2291 13.7161 21.2291 14.1073ZM21.1145 14.6802H30.8885V14.1073C30.8885 13.6528 30.5187 13.2831 30.0643 13.2831H21.9387C21.4842 13.2831 21.1145 13.6528 21.1145 14.1073V14.6802Z"
-                    fill="black"
-                    fill-opacity="0.9"
-                  />
-                  <path
-                    d="M26.9159 28.6528C27.1336 28.6528 27.31 28.4763 27.31 28.2587C27.31 28.041 27.1336 27.8645 26.9159 27.8645H25.1012C24.8835 27.8645 24.707 28.041 24.707 28.2587C24.707 28.4763 24.8835 28.6528 25.1012 28.6528H26.9159Z"
-                    fill="black"
-                    fill-opacity="0.9"
-                  />
-                  <path
-                    d="M28.7741 28.4781C28.9201 28.7095 29.283 28.7089 29.4293 28.4781C29.6242 28.1911 29.364 27.8021 29.0245 27.873C28.755 27.9206 28.6167 28.2539 28.7741 28.4781Z"
-                    fill="black"
-                    fill-opacity="0.9"
-                  />
-                  <path
-                    d="M24.6684 18.9718C24.6628 18.5671 24.4978 18.1908 24.2034 17.9121C23.6246 17.364 22.6874 17.3841 22.1145 17.957L17.3619 22.7095L17.3621 21.0488C17.3617 20.2294 16.6948 19.5624 15.8753 19.5621C15.4784 19.5621 15.105 19.7169 14.824 19.9979C14.5431 20.2788 14.3884 20.652 14.3884 21.0489V21.2375C14.3884 22.3715 14.1447 23.5075 13.6641 24.6141C13.3482 25.3414 13.2562 26.1396 13.3981 26.9225C13.5433 27.7245 13.9257 28.454 14.5038 29.032L15.14 29.6681C15.9187 30.4469 16.9417 30.8362 17.9646 30.8362C18.9876 30.8362 20.0105 30.4468 20.7893 29.6681L23.6688 26.7886C24.2417 26.2157 24.2618 25.2786 23.7136 24.6997C23.4349 24.4054 23.0586 24.2403 22.6538 24.2347C22.6268 24.2343 22.5999 24.2347 22.5731 24.2357C22.5891 23.8355 22.4445 23.4298 22.1396 23.1249C21.9644 22.9498 21.7533 22.8237 21.5229 22.7536L24.233 20.0435C24.5193 19.7572 24.6739 19.3766 24.6684 18.9718ZM23.6758 19.4862L20.037 23.1249L18.739 24.4229C18.5851 24.5768 18.5851 24.8264 18.739 24.9803C18.8159 25.0572 18.9168 25.0957 19.0176 25.0957C19.1185 25.0957 19.2193 25.0572 19.2963 24.9803C19.2963 24.9803 20.5928 23.6838 20.5943 23.6822C20.8623 23.4142 21.315 23.415 21.5822 23.6822C21.8546 23.9545 21.8546 24.3977 21.5822 24.67L20.2842 25.9681C20.1303 26.122 20.1303 26.3715 20.2842 26.5255C20.3611 26.6025 20.462 26.6409 20.5628 26.6409C20.6637 26.6409 20.7645 26.6025 20.8415 26.5255C20.8415 26.5255 22.1373 25.2297 22.1395 25.2275C22.4089 24.958 22.8808 24.9667 23.1413 25.2416C23.3987 25.5135 23.3853 25.9575 23.1113 26.2314L20.2319 29.1108C18.9817 30.361 16.9475 30.361 15.6973 29.1108L15.0612 28.4747C14.1232 27.5368 13.8586 26.1446 14.387 24.9281C14.9109 23.7218 15.1766 22.4801 15.1766 21.2375V21.0489C15.1766 20.668 15.4945 20.3503 15.8751 20.3503C16.2602 20.3505 16.5737 20.664 16.5739 21.0489L16.5736 23.661C16.5736 23.8205 16.6696 23.9641 16.8169 24.0252C16.9641 24.0862 17.1336 24.0525 17.2464 23.9398L22.6718 18.5143C22.9456 18.2405 23.3897 18.227 23.6614 18.4845C23.9438 18.7518 23.9505 19.2114 23.6758 19.4862Z"
-                    fill="#FFB646"
-                  />
-                  <defs>
-                    <filter
-                      id="filter0_dd_567_271"
-                      x="0"
-                      y="-4.071e-05"
-                      width="45"
-                      height="45"
-                      filterUnits="userSpaceOnUse"
-                      color-interpolation-filters="sRGB"
-                    >
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha"
-                      />
-                      <feMorphology
-                        radius="0.833333"
-                        operator="erode"
-                        in="SourceAlpha"
-                        result="effect1_dropShadow_567_271"
-                      />
-                      <feOffset dy="0.833333" />
-                      <feGaussianBlur stdDeviation="0.833333" />
-                      <feComposite in2="hardAlpha" operator="out" />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="BackgroundImageFix"
-                        result="effect1_dropShadow_567_271"
-                      />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha"
-                      />
-                      <feOffset dy="0.833333" />
-                      <feGaussianBlur stdDeviation="1.25" />
-                      <feComposite in2="hardAlpha" operator="out" />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="effect1_dropShadow_567_271"
-                        result="effect2_dropShadow_567_271"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in="SourceGraphic"
-                        in2="effect2_dropShadow_567_271"
-                        result="shape"
-                      />
-                    </filter>
-                  </defs>
-                </svg>
-
-                <h3>Interaction<br />design</h3>
-                <span class="corner-arrow">↗</span>
-              </article>
-            </div>
-           <a class="hello-card" href="mailto:deepaklakher4@gmail.com">
-    <span class="big-arrow">
-        <svg width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-                d="M2.08325 47.7777L47.2221 2.63879"
-                stroke="#FFB646"
-                stroke-width="4.16667"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-            />
-            <path
-                d="M2.15283 1.875H47.9862V48.5417"
-                stroke="#FFB646"
-                stroke-width="3.75"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-            />
-        </svg>
-    </span>
-
-    <span>
-        <small>
-            SAY HELLO! <br>
-            deepaklakher4@gmail.com
-        </small>
-    </span>
-</a>
-          </div>
-        </div>
-      </section>
-
-      <section class="about section-dark" id="about">
-        <div class="section-shell">
-          <div class="about-row">
-            <div class="about-visual reveal">
-              <img
-                src="assets/about-visuals.png"
-                alt="Deepak Lakhera, 4+ years of experience"
-              />
-            </div>
-            <div class="about-copy reveal">
-              <p class="eyebrow">Hello I’m</p>
-              <h2>
-                <span class="accent-dot"><span>D</span></span>eepak Lakhera<br />Product
-                Designer
-              </h2>
-              <p>
-                That is where I come in. A lover of words, a wrangler of copy.
-                Here to create copy that not only reflects who you are and what
-                you stand for, but words that truly land with those that read
-                them, calling your audience in and making them.
-              </p>
-              <a class="button button-outline-light" href="https://drive.google.com/file/d/19YsESsne46ccp577jILPz0zxkDzDecZm/view?usp=sharing"
-                >Download My Resume <span>↗</span></a
-              >
-            </div>
-          </div>
-
-          <div class="resume-row">
-            <div class="meeting-card reveal">
-              <p class="eyebrow">Resume</p>
-              <h2><span class="accent-dot"><span>S</span></span>chedule<br />Meeting</h2>
-              <!-- Calendly inline widget begin -->
-<div
-  class="calendly-inline-widget"
-  data-url="https://calendly.com/deepaklakher4/30min"
-  style="min-width:320px;height:400px; margin-top:20px;">
-</div>
-
-<script src="https://assets.calendly.com/assets/external/widget.js"></script>
-<!-- Calendly inline widget end -->
-            </div>
-            <div class="bio reveal">
-              <h3>Based in India</h3>
-              <p>
-                Deepak Lakhera,
-                <strong>Product Designer &amp; UI Designer</strong>, I design
-                products that people enjoy using and businesses are proud to
-                build. My focus is on creating intuitive user experiences,
-                scalable design systems, and modern interfaces that balance
-                functionality with aesthetics.
-              </p>
-              <dl>
-                <div>
-                  <dt>Name</dt>
-                  <dd>Deepak Lakhera</dd>
-                </div>
-                <div>
-                  <dt>Nationality</dt>
-                  <dd>India</dd>
-                </div>
-                <div>
-                  <dt>Phone</dt>
-                  <dd>+918349576938</dd>
-                </div>
-                <div>
-                  <dt>Email</dt>
-                  <dd><a href="mailto:deepaklakher4@gmail.com">deepaklakher4@gmail.com</a></dd>
-                </div>
-                <div>
-                  <dt>Experience</dt>
-                  <dd>04+ years</dd>
-                </div>
-                <div>
-                  <dt>Language</dt>
-                  <dd>Hindi, English</dd>
-                </div>
-              </dl>
-            </div>
-          </div>
-        </div>
-      </section>
-
-<section class="recent-work-section" id="recent-work">
-    <div class="recent-work-shell">
-      <div class="recent-work-heading">
-        <p>Portfolio</p>
-        <h1>My recent <span>w</span>ork</h1>
-      </div>
-
-      <div class="recent-slider" data-gallery-slider>
-        <button class="slider-arrow slider-arrow-prev" type="button" aria-label="Previous project" data-slider-prev>‹</button>
-
-        <div class="recent-viewport">
-          <div class="recent-track" data-slider-track>
-            <article class="recent-slide">
-              <button class="recent-card" type="button" data-gallery-item>
-                <img src="assets/recent-bar-ui.jpg" alt="Bar UI showcase project">
-                <span class="recent-card-caption">
-                  <span>Bar UI Showcase</span>
-                  <small>View gallery</small>
-                </span>
-              </button>
+    <section class="services section-dark" id="services">
+      <div class="section-shell">
+        <p class="eyebrow">Services</p>
+        <h2><span class="accent-dot">M</span>y specialties</h2>
+        <div class="services-layout">
+          <div class="service-grid">
+            <article class="service-card">
+              <span class="service-icon">▯</span>
+              <h3>Mobile Apps<br>design</h3>
+              <span class="corner-arrow">↗</span>
             </article>
-
-            <article class="recent-slide">
-              <button class="recent-card" type="button" data-gallery-item>
-                <img src="assets/recent-dashboard.jpg" alt="Dashboard design project">
-                <span class="recent-card-caption">
-                  <span>Dashboard UI</span>
-                  <small>View gallery</small>
-                </span>
-              </button>
+            <article class="service-card">
+              <span class="service-icon">◫</span>
+              <h3>UI/UX<br>design</h3>
+              <span class="corner-arrow">↗</span>
             </article>
-
-            <article class="recent-slide">
-              <button class="recent-card" type="button" data-gallery-item>
-                <img src="assets/work-03.jpg" alt="Laptop interface project">
-                <span class="recent-card-caption">
-                  <span>Interface Concept</span>
-                  <small>View gallery</small>
-                </span>
-              </button>
+            <article class="service-card">
+              <span class="service-icon">▤</span>
+              <h3>Website<br>design</h3>
+              <span class="corner-arrow">↗</span>
             </article>
-
-            <article class="recent-slide">
-              <button class="recent-card" type="button" data-gallery-item>
-                <img src="assets/work-06.jpg" alt="Mobile app project">
-                <span class="recent-card-caption">
-                  <span>Mobile App UI</span>
-                  <small>View gallery</small>
-                </span>
-              </button>
+            <article class="service-card">
+              <span class="service-icon">▣</span>
+              <h3>Framer<br>development</h3>
+              <span class="corner-arrow">↗</span>
             </article>
-
-            <article class="recent-slide">
-              <button class="recent-card" type="button" data-gallery-item>
-                <img src="assets/work-11.jpg" alt="GreenCart website">
-                <span class="recent-card-caption">
-                  <span>GreenCart Website</span>
-                  <small>View gallery</small>
-                </span>
-              </button>
+            <article class="service-card">
+              <span class="service-icon">⚑</span>
+              <h3>Brand<br>identity</h3>
+              <span class="corner-arrow">↗</span>
             </article>
-
-            <article class="recent-slide">
-              <button class="recent-card" type="button" data-gallery-item>
-                <img src="assets/work-14.jpg" alt="Casino website">
-                <span class="recent-card-caption">
-                  <span>Casino Landing Page</span>
-                  <small>View gallery</small>
-                </span>
-              </button>
+            <article class="service-card">
+              <span class="service-icon">♪</span>
+              <h3>Interaction<br>design</h3>
+              <span class="corner-arrow">↗</span>
             </article>
           </div>
-        </div>
-
-        <button class="slider-arrow slider-arrow-next" type="button" aria-label="Next project" data-slider-next>›</button>
-      </div>
-
-      <div class="slider-dots" aria-label="Project slider pagination" data-slider-dots></div>
-
-      <button class="view-all-button" type="button" data-gallery-open>
-        <span>View All<br>Project</span>
-        <span>↗</span>
-      </button>
-    </div>
-  </section>
-
-  <div class="project-lightbox" data-gallery-modal aria-hidden="true">
-    <button class="project-lightbox-backdrop" type="button" aria-label="Close gallery" data-gallery-close></button>
-
-    <div class="project-lightbox-dialog" role="dialog" aria-modal="true" aria-label="Recent work gallery">
-      <button class="gallery-close" type="button" aria-label="Close gallery" data-gallery-close>×</button>
-      <button class="gallery-nav gallery-prev" type="button" aria-label="Previous image" data-gallery-prev>‹</button>
-
-      <figure class="gallery-frame">
-        <img src="assets/recent-bar-ui.jpg" alt="Bar UI showcase project" data-gallery-image>
-        <figcaption>
-          <strong data-gallery-title>Bar UI Showcase</strong>
-          <span data-gallery-count>1 / 6</span>
-        </figcaption>
-      </figure>
-
-      <button class="gallery-nav gallery-next" type="button" aria-label="Next image" data-gallery-next>›</button>
-    </div>
-  </div>     
-
-        <section class="work-showcase" id="work-showcase">
-    <div class="work-showcase-shell">
-      <div class="work-showcase-heading">
-        <p>Work</p>
-        <h1>My work<span> S</span>howcase</h1>
-        <small>Product concepts, client work, and interface explorations focused on solving<br>real problems through thoughtful design.</small>
-      </div>
-
-      <div class="work-gallery-grid" data-work-gallery>
-        <button class="work-gallery-item" type="button" data-work-gallery-item>
-           <img src="assets/recent-bar-ui.jpg" alt="Bar UI showcase project">
-          <span><strong>Website Project</strong><small>Open image</small></span>
-        </button>
-
-        <button class="work-gallery-item" type="button" data-work-gallery-item>
-          <img src="assets/recent-dashboard.jpg" alt="Dashboard design project">
-          <span><strong>Dashboard UI</strong><small>Open image</small></span>
-        </button>
-
-        <button class="work-gallery-item" type="button" data-work-gallery-item>
-           <img src="assets/work-03.jpg" alt="Laptop interface project">
-          <span><strong>Laptop Interface</strong><small>Open image</small></span>
-        </button>
-
-        <button class="work-gallery-item" type="button" data-work-gallery-item>
-          <img src="assets/work-04.jpg" alt="Website layout project">
-          <span><strong>Website Layout</strong><small>Open image</small></span>
-        </button>
-
-        <button class="work-gallery-item" type="button" data-work-gallery-item>
-          <img src="assets/work-05.jpg" alt="Laptop presentation project">
-          <span><strong>Laptop Presentation</strong><small>Open image</small></span>
-        </button>
-
-        <button class="work-gallery-item" type="button" data-work-gallery-item>
-          <img src="assets/work-06.jpg" alt="Mobile App project">
-          <span><strong>Mobile App UI</strong><small>Open image</small></span>
-        </button>
-
-        <button class="work-gallery-item" type="button" data-work-gallery-item>
-          <img src="assets/work-07.jpg" alt="UX case study">
-          <span><strong>UX Case Study</strong><small>Open image</small></span>
-        </button>
-
-        <button class="work-gallery-item" type="button" data-work-gallery-item>
-          <img src="assets/work-08.jpg" alt="GCEI website project">
-          <span><strong>GCEI Website</strong><small>Open image</small></span>
-        </button>
-
-        <button class="work-gallery-item work-wide" type="button" data-work-gallery-item>
-          <img src="assets/work-09.jpg" alt="Fitness mobile application">
-          <span><strong>Fitness Mobile App</strong><small>Open image</small></span>
-        </button>
-
-        <button class="work-gallery-item work-wide" type="button" data-work-gallery-item>
-          <img src="assets/work-10.jpg" alt="Tablet interface">
-          <span><strong>Tablet Interface</strong><small>Open image</small></span>
-        </button>
-
-        <button class="work-gallery-item work-wide" type="button" data-work-gallery-item>
-          <img src="assets/work-11.jpg" alt="GreenCart website">
-          <span><strong>GreenCart Website</strong><small>Open image</small></span>
-        </button>
-
-        <button class="work-gallery-item work-wide" type="button" data-work-gallery-item>
-          <img src="assets/work-12.jpg" alt="GCEI France website">
-          <span><strong>GCEI France</strong><small>Open image</small></span>
-        </button>
-
-        <button class="work-gallery-item work-wide" type="button" data-work-gallery-item>
-          <img src="assets/work-13.jpg" alt="Brand identity project">
-          <span><strong>Brand Identity</strong><small>Open image</small></span>
-        </button>
-
-        <button class="work-gallery-item work-wide" type="button" data-work-gallery-item>
-          <img src="assets/work-14.jpg" alt="Casino website">
-          <span><strong>Casino Website</strong><small>Open image</small></span>
-        </button>
-      </div>
-
-      <div class="work-showcase-actions">
-        <button class="showcase-button showcase-button-accent" type="button" data-work-gallery-open>
-          View All Work <span>↗</span>
-        </button>
-        <a class="showcase-button showcase-button-outline" href="#contact">
-          Get In Touch <span>↗</span>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <div class="work-lightbox" data-work-gallery-modal aria-hidden="true">
-    <button class="work-lightbox-backdrop" type="button" aria-label="Close gallery" data-work-gallery-close></button>
-
-    <div class="work-lightbox-dialog" role="dialog" aria-modal="true" aria-label="Work showcase gallery">
-      <button class="work-lightbox-close" type="button" aria-label="Close gallery" data-work-gallery-close>×</button>
-      <button class="work-lightbox-nav work-lightbox-prev" type="button" aria-label="Previous image" data-work-gallery-prev>‹</button>
-
-      <figure class="work-lightbox-frame">
-        <img src="assets/work-01.jpg" alt="Website project" data-work-gallery-image>
-        <figcaption>
-          <strong data-work-gallery-title>Website Project</strong>
-          <span data-work-gallery-count>1 / 14</span>
-        </figcaption>
-      </figure>
-
-      <button class="work-lightbox-nav work-lightbox-next" type="button" aria-label="Next image" data-work-gallery-next>›</button>
-    </div>
-  </div>
-
-      <section class="contact section-dark" id="contact">
-        <div class="section-shell">
-          <div class="contact-grid">
-            <h2><span class="accent-dot"><span>L</span></span>et’s work<br />together</h2>
-            <a class="contact-card" href="mailto:deepaklakher4@gmail.com">
-              <span>Looking for a hectic Designer?</span>
+          <a class="hello-card" href="mailto:deepaklakher4@gmail.com">
+            <span class="big-arrow">↗</span>
+            <span>
+              <small>SAY HELLO!</small>
               <strong>deepaklakher4@gmail.com</strong>
-              <i>↗</i>
-            </a>
-            <a class="contact-card" href="tel:+918349576938">
-              <span>Want a more in-depth look<br />at my history?</span>
-              <strong>+918349576938</strong>
-              <i>↗</i>
-            </a>
-          </div>
-          <a class="footer-name" href="#top">DEEPAK LAKHERA</a>
+            </span>
+          </a>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
 
-    <script src="script.js"></script>
-    <script src="recent-work-slider.js"></script>
-  </body>
+    <section class="about section-dark" id="about">
+      <div class="section-shell">
+        <div class="about-row">
+          <div class="about-visual reveal">
+            <img src="assets/about-visual.jpg" alt="Deepak Lakhera, 4+ years of experience">
+          </div>
+          <div class="about-copy reveal">
+            <p class="eyebrow">Hello I’m</p>
+            <h2><span class="accent-dot">D</span>eepak Lakhera<br>Product Designer</h2>
+            <p>That is where I come in. A lover of words, a wrangler of copy. Here to create copy that not only reflects who you are and what you stand for, but words that truly land with those that read them, calling your audience in and making them.</p>
+            <a class="button button-outline-light" href="#contact">Download My Resume <span>↗</span></a>
+          </div>
+        </div>
+
+        <div class="resume-row">
+          <div class="meeting-card reveal">
+            <p class="eyebrow">Resume</p>
+            <h2><span class="accent-dot">S</span>chedule<br>Meeting</h2>
+            <img src="assets/calendar.jpg" alt="Meeting schedule calendar">
+          </div>
+          <div class="bio reveal">
+            <h3>Based in India</h3>
+            <p>Deepak Lakhera, <strong>Product Designer &amp; UI Designer</strong>, I design products that people enjoy using and businesses are proud to build. My focus is on creating intuitive user experiences, scalable design systems, and modern interfaces that balance functionality with aesthetics.</p>
+            <dl>
+              <div><dt>Name</dt><dd>Deepak Lakhera</dd></div>
+              <div><dt>Nationality</dt><dd>India</dd></div>
+              <div><dt>Phone</dt><dd>+918349576938</dd></div>
+              <div><dt>Email</dt><dd>deepaklakher4@gmail.com</dd></div>
+              <div><dt>Experience</dt><dd>04+ years</dd></div>
+              <div><dt>Language</dt><dd>Hindi, English</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="recent section-light" id="work">
+      <div class="section-shell">
+        <div class="center-heading">
+          <p class="eyebrow dark">Portfolio</p>
+          <h2>My recent <span class="accent-dot">w</span>ork</h2>
+        </div>
+        <div class="recent-slider" data-gallery-slider>
+          <button class="slider-arrow slider-arrow-prev" type="button" aria-label="Previous project" data-slider-prev>‹</button>
+
+          <div class="recent-viewport">
+            <div class="recent-track" data-slider-track>
+              <article class="recent-slide">
+                <button class="recent-card" type="button" data-gallery-item>
+                  <img src="assets/recent-bar-ui.jpg" alt="Bar UI showcase project">
+                  <span class="recent-card-caption">
+                    <span>Bar UI Showcase</span>
+                    <small>View gallery</small>
+                  </span>
+                </button>
+              </article>
+
+              <article class="recent-slide">
+                <button class="recent-card" type="button" data-gallery-item>
+                  <img src="assets/recent-dashboard.jpg" alt="Dashboard design project">
+                  <span class="recent-card-caption">
+                    <span>Dashboard UI</span>
+                    <small>View gallery</small>
+                  </span>
+                </button>
+              </article>
+
+              <article class="recent-slide">
+                <button class="recent-card" type="button" data-gallery-item>
+                  <img src="assets/work-03.jpg" alt="Laptop interface project">
+                  <span class="recent-card-caption">
+                    <span>Interface Concept</span>
+                    <small>View gallery</small>
+                  </span>
+                </button>
+              </article>
+
+              <article class="recent-slide">
+                <button class="recent-card" type="button" data-gallery-item>
+                  <img src="assets/work-06.jpg" alt="Mobile app project">
+                  <span class="recent-card-caption">
+                    <span>Mobile App UI</span>
+                    <small>View gallery</small>
+                  </span>
+                </button>
+              </article>
+
+              <article class="recent-slide">
+                <button class="recent-card" type="button" data-gallery-item>
+                  <img src="assets/work-11.jpg" alt="GreenCart website">
+                  <span class="recent-card-caption">
+                    <span>GreenCart Website</span>
+                    <small>View gallery</small>
+                  </span>
+                </button>
+              </article>
+
+              <article class="recent-slide">
+                <button class="recent-card" type="button" data-gallery-item>
+                  <img src="assets/work-14.jpg" alt="Casino website">
+                  <span class="recent-card-caption">
+                    <span>Casino Landing Page</span>
+                    <small>View gallery</small>
+                  </span>
+                </button>
+              </article>
+            </div>
+          </div>
+
+          <button class="slider-arrow slider-arrow-next" type="button" aria-label="Next project" data-slider-next>›</button>
+        </div>
+
+        <div class="slider-dots" aria-label="Project slider pagination" data-slider-dots></div>
+        <a class="wide-link" href="#work-grid"><span>View All<br>Project</span><span>↗</span></a>
+      </div>
+    </section>
+
+    <div class="project-lightbox" data-gallery-modal aria-hidden="true">
+      <button class="project-lightbox-backdrop" type="button" aria-label="Close gallery" data-gallery-close></button>
+
+      <div class="project-lightbox-dialog" role="dialog" aria-modal="true" aria-label="Recent work gallery">
+        <button class="gallery-close" type="button" aria-label="Close gallery" data-gallery-close>×</button>
+        <button class="gallery-nav gallery-prev" type="button" aria-label="Previous image" data-gallery-prev>‹</button>
+
+        <figure class="gallery-frame">
+          <img src="assets/recent-bar-ui.jpg" alt="Bar UI showcase project" data-gallery-image>
+          <figcaption>
+            <strong data-gallery-title>Bar UI Showcase</strong>
+            <span data-gallery-count>1 / 6</span>
+          </figcaption>
+        </figure>
+
+        <button class="gallery-nav gallery-next" type="button" aria-label="Next image" data-gallery-next>›</button>
+      </div>
+    </div>
+
+    <section class="work section-dark" id="work-grid">
+      <div class="section-shell">
+        <div class="center-heading">
+          <p class="eyebrow">Work</p>
+          <h2>My work <span class="accent-dot">S</span>howcase</h2>
+          <p class="heading-copy">Product concepts, client work, and interface explorations focused on solving<br>real problems through thoughtful design.</p>
+        </div>
+
+        <div class="work-grid" data-work-gallery>
+          <button class="work-gallery-item" type="button" data-work-gallery-item>
+            <img src="assets/work-01.jpg" alt="Website project">
+            <span><strong>Website Project</strong><small>Open image</small></span>
+          </button>
+          <button class="work-gallery-item" type="button" data-work-gallery-item>
+            <img src="assets/work-02.jpg" alt="Dashboard UI project">
+            <span><strong>Dashboard UI</strong><small>Open image</small></span>
+          </button>
+          <button class="work-gallery-item" type="button" data-work-gallery-item>
+            <img src="assets/work-03.jpg" alt="Laptop interface project">
+            <span><strong>Laptop Interface</strong><small>Open image</small></span>
+          </button>
+          <button class="work-gallery-item" type="button" data-work-gallery-item>
+            <img src="assets/work-04.jpg" alt="Website layout project">
+            <span><strong>Website Layout</strong><small>Open image</small></span>
+          </button>
+          <button class="work-gallery-item" type="button" data-work-gallery-item>
+            <img src="assets/work-05.jpg" alt="Laptop presentation project">
+            <span><strong>Laptop Presentation</strong><small>Open image</small></span>
+          </button>
+          <button class="work-gallery-item" type="button" data-work-gallery-item>
+            <img src="assets/work-06.jpg" alt="Mobile app project">
+            <span><strong>Mobile App UI</strong><small>Open image</small></span>
+          </button>
+          <button class="work-gallery-item" type="button" data-work-gallery-item>
+            <img src="assets/work-07.jpg" alt="UX case study">
+            <span><strong>UX Case Study</strong><small>Open image</small></span>
+          </button>
+          <button class="work-gallery-item" type="button" data-work-gallery-item>
+            <img src="assets/work-08.jpg" alt="GCEI website project">
+            <span><strong>GCEI Website</strong><small>Open image</small></span>
+          </button>
+          <button class="work-gallery-item work-wide" type="button" data-work-gallery-item>
+            <img src="assets/work-09.jpg" alt="Fitness mobile application">
+            <span><strong>Fitness Mobile App</strong><small>Open image</small></span>
+          </button>
+          <button class="work-gallery-item work-wide" type="button" data-work-gallery-item>
+            <img src="assets/work-10.jpg" alt="Tablet interface">
+            <span><strong>Tablet Interface</strong><small>Open image</small></span>
+          </button>
+          <button class="work-gallery-item work-wide" type="button" data-work-gallery-item>
+            <img src="assets/work-11.jpg" alt="GreenCart website">
+            <span><strong>GreenCart Website</strong><small>Open image</small></span>
+          </button>
+          <button class="work-gallery-item work-wide" type="button" data-work-gallery-item>
+            <img src="assets/work-12.jpg" alt="GCEI France website">
+            <span><strong>GCEI France</strong><small>Open image</small></span>
+          </button>
+          <button class="work-gallery-item work-wide" type="button" data-work-gallery-item>
+            <img src="assets/work-13.jpg" alt="Brand identity project">
+            <span><strong>Brand Identity</strong><small>Open image</small></span>
+          </button>
+          <button class="work-gallery-item work-wide" type="button" data-work-gallery-item>
+            <img src="assets/work-14.jpg" alt="Casino website">
+            <span><strong>Casino Website</strong><small>Open image</small></span>
+          </button>
+        </div>
+
+        <div class="center-actions">
+          <a class="button button-accent" href="#">View All Work <span>↗</span></a>
+          <a class="button button-outline-light" href="#contact">Get In Touch <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="project-lightbox work-lightbox" data-work-gallery-modal aria-hidden="true">
+      <button class="project-lightbox-backdrop" type="button" aria-label="Close work gallery" data-work-gallery-close></button>
+
+      <div class="project-lightbox-dialog" role="dialog" aria-modal="true" aria-label="Work showcase gallery">
+        <button class="gallery-close" type="button" aria-label="Close work gallery" data-work-gallery-close>×</button>
+        <button class="gallery-nav gallery-prev" type="button" aria-label="Previous work image" data-work-gallery-prev>‹</button>
+
+        <figure class="gallery-frame">
+          <img src="assets/work-01.jpg" alt="Website project" data-work-gallery-image>
+          <figcaption>
+            <strong data-work-gallery-title>Website Project</strong>
+            <span data-work-gallery-count>1 / 14</span>
+          </figcaption>
+        </figure>
+
+        <button class="gallery-nav gallery-next" type="button" aria-label="Next work image" data-work-gallery-next>›</button>
+      </div>
+    </div>
+
+    <section class="contact section-dark" id="contact">
+      <div class="section-shell">
+        <div class="contact-grid">
+          <h2><span class="accent-dot">L</span>et’s work<br>together</h2>
+          <a class="contact-card" href="mailto:deepaklakher4@gmail.com">
+            <span>Looking for a hectic Designer?</span>
+            <strong>deepaklakher4@gmail.com</strong>
+            <i>↗</i>
+          </a>
+          <a class="contact-card" href="tel:+918349576938">
+            <span>Want a more in-depth look<br>at my history?</span>
+            <strong>+918349576938</strong>
+            <i>↗</i>
+          </a>
+        </div>
+        <a class="footer-name" href="#top">DEEPAK LAKHERA</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
 </html>
