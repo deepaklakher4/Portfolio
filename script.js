@@ -1,23 +1,51 @@
-const menuButton = document.querySelector(".mobile-menu-button");
-const mobileNav = document.querySelector(".mobile-nav");
+const menu = document.querySelector("[data-menu]") || document.querySelector(".mobile-nav");
+const menuOpenButtons = document.querySelectorAll("[data-menu-open], .menu-toggle, .mobile-menu-button");
+const menuCloseButtons = document.querySelectorAll("[data-menu-close]");
 
-if (menuButton && mobileNav) {
+if (menu && menuOpenButtons.length) {
+  function openMenu() {
+    menu.classList.add("open");
+    menu.setAttribute("aria-hidden", "false");
+    menuOpenButtons.forEach((button) => {
+      button.classList.add("active");
+      button.setAttribute("aria-expanded", "true");
+    });
+    document.body.classList.add("menu-open");
+    menu.querySelector("[data-menu-close]")?.focus();
+  }
+
   function closeMenu() {
-    menuButton.classList.remove("active");
-    mobileNav.classList.remove("open");
-    menuButton.setAttribute("aria-expanded", "false");
+    menu.classList.remove("open");
+    menu.setAttribute("aria-hidden", "true");
+    menuOpenButtons.forEach((button) => {
+      button.classList.remove("active");
+      button.setAttribute("aria-expanded", "false");
+    });
     document.body.classList.remove("menu-open");
   }
 
-  menuButton.addEventListener("click", () => {
-    const isOpen = mobileNav.classList.toggle("open");
-    menuButton.classList.toggle("active", isOpen);
-    menuButton.setAttribute("aria-expanded", String(isOpen));
-    document.body.classList.toggle("menu-open", isOpen);
+  menuOpenButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      if (menu.classList.contains("open")) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
+    });
   });
 
-  mobileNav.querySelectorAll("a").forEach((link) => {
+  menuCloseButtons.forEach((button) => {
+    button.addEventListener("click", closeMenu);
+  });
+
+  menu.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", closeMenu);
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && menu.classList.contains("open")) {
+      closeMenu();
+    }
   });
 }
 
