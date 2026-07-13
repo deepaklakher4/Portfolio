@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
 :root {
   --black: #050505;
   --card: #151515;
@@ -23,7 +23,7 @@ body {
   margin: 0;
   color: var(--white);
   background: var(--black);
-  font-family: "Montserrat", "Poppins", Arial, sans-serif;
+   font-family: "Syne", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -125,6 +125,7 @@ button {
   justify-content: space-between;
   color: #080808;
   border-bottom: 1px solid rgba(8, 8, 8, .32);
+  font-family: "Syne", "Montserrat", Arial, sans-serif;
   transform: translateX(-50%);
 }
 
@@ -300,6 +301,7 @@ button {
   color: #080808;
   grid-template-columns: minmax(0, 1fr) minmax(540px, 1fr);
   align-items: center;
+  font-family: "Syne", "Montserrat", Arial, sans-serif;
 }
 
 .hero::before {
