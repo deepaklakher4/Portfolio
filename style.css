@@ -1417,16 +1417,23 @@ button {
     color: #fff;
   }
 
-  .drawer-head {
+.drawer-head {
     min-height: 72px;
-    margin: 0 -28px 76px;
+    margin: 0 -30px 0px;
     padding-left: 28px;
-  }
-
+}
   .drawer-close {
     width: 82px;
     height: 72px;
   }
+.drawer-links {
+
+    padding: 0px 15px 0px 27px;
+    position: relative;
+    left: -30px;
+    width: auto;
+    min-width: 288px;
+}
 
   .mobile-nav .drawer-brand {
     padding: 0;
