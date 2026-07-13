@@ -361,10 +361,11 @@ button {
 
 .hero h1 {
   margin: 0;
-  font-size: clamp(76px, 7.45vw, 140px);
-  font-weight: 800;
+  font-size: clamp(76px, 7.45vw, 80px);
+  font-weight: 600;
   letter-spacing: -.07em;
   line-height: .78;
+  font-family: "Syne", sans-serif;
 }
 
 .accent-dot {
