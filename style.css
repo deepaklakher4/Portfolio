@@ -199,7 +199,12 @@ button {
   place-content: center;
   gap: 7px;
 }
-
+.mobile-nav:not(.open) {
+  width: 0;
+  padding-right: 0;
+  padding-left: 0;
+  overflow: hidden;
+}
 .menu-button span,
 .mobile-menu-button span {
   display: block;
