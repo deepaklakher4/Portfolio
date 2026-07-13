@@ -174,6 +174,88 @@ if (recentSlider) {
   updateSlider();
 }
 
+const workGallery = document.querySelector("[data-work-gallery]");
+
+if (workGallery) {
+  const workItems = Array.from(workGallery.querySelectorAll("[data-work-gallery-item]"));
+  const workModal = document.querySelector("[data-work-gallery-modal]");
+  const workImage = document.querySelector("[data-work-gallery-image]");
+  const workTitle = document.querySelector("[data-work-gallery-title]");
+  const workCount = document.querySelector("[data-work-gallery-count]");
+  const workOpenButton = document.querySelector("[data-work-gallery-open], .work .button-accent");
+  const workCloseButtons = document.querySelectorAll("[data-work-gallery-close]");
+  const workPrevButton = document.querySelector("[data-work-gallery-prev]");
+  const workNextButton = document.querySelector("[data-work-gallery-next]");
+
+  let currentWork = 0;
+
+  const workGalleryItems = workItems.map((item) => {
+    const image = item.querySelector("img");
+    const title = item.querySelector("strong")?.textContent || image.alt;
+
+    return {
+      src: image.getAttribute("src"),
+      alt: image.getAttribute("alt"),
+      title
+    };
+  });
+
+  function updateWorkGallery() {
+    if (!workModal || !workImage || !workTitle || !workCount) return;
+
+    const item = workGalleryItems[currentWork];
+    workImage.src = item.src;
+    workImage.alt = item.alt;
+    workTitle.textContent = item.title;
+    workCount.textContent = `${currentWork + 1} / ${workGalleryItems.length}`;
+  }
+
+  function openWorkGallery(index = 0) {
+    if (!workModal) return;
+
+    currentWork = index;
+    updateWorkGallery();
+    workModal.classList.add("open");
+    workModal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("gallery-open");
+    workModal.querySelector("[data-work-gallery-close]")?.focus();
+  }
+
+  function closeWorkGallery() {
+    if (!workModal) return;
+
+    workModal.classList.remove("open");
+    workModal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("gallery-open");
+  }
+
+  function moveWorkGallery(direction) {
+    currentWork = (currentWork + direction + workGalleryItems.length) % workGalleryItems.length;
+    updateWorkGallery();
+  }
+
+  workItems.forEach((item, index) => {
+    item.addEventListener("click", () => openWorkGallery(index));
+  });
+
+  workOpenButton?.addEventListener("click", (event) => {
+    event.preventDefault();
+    openWorkGallery(0);
+  });
+
+  workCloseButtons.forEach((button) => button.addEventListener("click", closeWorkGallery));
+  workPrevButton?.addEventListener("click", () => moveWorkGallery(-1));
+  workNextButton?.addEventListener("click", () => moveWorkGallery(1));
+
+  document.addEventListener("keydown", (event) => {
+    if (!workModal?.classList.contains("open")) return;
+
+    if (event.key === "Escape") closeWorkGallery();
+    if (event.key === "ArrowLeft") moveWorkGallery(-1);
+    if (event.key === "ArrowRight") moveWorkGallery(1);
+  });
+}
+
 if ("IntersectionObserver" in window) {
   const observer = new IntersectionObserver(
     (entries) => {
