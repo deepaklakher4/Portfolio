@@ -1414,12 +1414,12 @@ button {
     font-weight: 800;
   }
 
-  .hero {
+ .hero {
     display: flex;
     min-height: auto;
-    padding: 118px 18px 0;
+    padding: 0px 18px 0;
     flex-direction: column;
-  }
+}
 
   .hero::before {
     top: auto;
@@ -1429,11 +1429,12 @@ button {
     clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
   }
 
-  .hero-copy {
+ .hero-copy {
     width: 100%;
     margin: 0;
     padding: 0;
-  }
+    order: 1;
+}
 
   .hero .eyebrow {
     font-size: 22px;
@@ -2533,4 +2534,15 @@ svg.contact-svg {
     }
 }
 
+@media (max-width:580px){
+          .contact-svg {
+              display: block;
+              width: 130px;
+              height: 130px;
+          }
+  svg.contact-svg {
+    right: -50px !important;
+    bottom: -66px !important;
+}
+}
 
