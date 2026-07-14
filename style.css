@@ -2462,50 +2462,72 @@ button {
 
 
 
-.hero-art {
-    position: relative;
-}
-
-.contact-badge {
-    text-decoration: none;
-}
-
-.contact-svg {
+.contact-badge{
     position: absolute;
     right: 40px;
     bottom: 200px;
-    width: 180px;
-    height: 180px;
-    overflow: visible;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: auto;
+    z-index: 5;
 }
 
-.contact-svg-spin {
+.contact-svg{
+    display: block;
+    width: 180px;
+    height: 180px;
+}
+
+.contact-svg-spin{
     transform-box: fill-box;
     transform-origin: center;
     animation: contactSpin 7s linear infinite;
 }
+.hero-art svg{
+    position:absolute;
+    right:40px;
+    bottom:200px;
+}
 
-@keyframes contactSpin {
-    from {
+.hero-art svg g:first-child{
+    transform-box:fill-box;
+    transform-origin:center;
+    animation:contactSpin 7s linear infinite;
+}
+
+@keyframes contactSpin{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+}
+
+@media (min-width:992px){
+    .hero-art svg{
+        right:150px;
+        bottom:80px;
+    }
+}
+@keyframes contactSpin{
+    from{
         transform: rotate(0deg);
     }
-    to {
+    to{
         transform: rotate(360deg);
     }
 }
 
-/* Desktop */
-@media (min-width: 992px) {
-    .contact-svg {
-        right: 150px;
-        bottom: 80px;
+@media (min-width:992px){
+    .contact-badge{
+        right:150px;
+        bottom:80px;
     }
 }
 
-/* XL */
-@media (min-width: 1280px) {
-    .contact-svg {
-        right: 150px;
-        bottom: 80px;
+@media (min-width:1280px){
+    .contact-badge{
+        right:150px;
+        bottom:80px;
     }
 }
+
+
