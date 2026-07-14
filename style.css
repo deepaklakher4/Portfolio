@@ -2489,7 +2489,10 @@ button {
     right:40px;
     bottom:200px;
 }
-
+svg.contact-svg {
+    right: -50px !important;
+    bottom: -85px !important;
+}
 .hero-art svg g:first-child{
     transform-box:fill-box;
     transform-origin:center;
