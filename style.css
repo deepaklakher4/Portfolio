@@ -2506,3 +2506,45 @@ button {
     -webkit-filter: brightness(50%);
     filter: brightness(50%);
 }
+
+
+
+/* SVG Position */
+.contact-rotate-svg {
+    position: absolute;
+    right: 40px;
+    bottom: 200px;
+}
+
+/* Tablet/Desktop */
+@media (min-width: 992px) {
+    .contact-rotate-svg {
+        right: 150px;
+        bottom: 80px;
+    }
+}
+
+/* XL (same values, optional) */
+@media (min-width: 1280px) {
+    .contact-rotate-svg {
+        right: 150px;
+        bottom: 80px;
+    }
+}
+
+/* Rotating Group */
+.spin-circle {
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: spinCircle 7s linear infinite;
+}
+
+@keyframes spinCircle {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
