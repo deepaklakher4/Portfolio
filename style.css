@@ -2467,3 +2467,29 @@ button {
     animation-duration: .01ms !important;
   }
 }
+
+
+.marquee-wrapper {
+      overflow: hidden;
+      width: 100%;
+    }
+    .marquee-inner {
+      display: flex;
+    }
+    .marquee-inner .ratio {
+      flex-shrink: 0;
+      margin-right: 30px;
+      width: clamp(300px, 20vw, 500px);
+      object-fit: cover;
+      overflow: hidden;
+    }
+    .marquee-inner .ratio img {
+      object-fit: cover;
+          transition: all 0.5s;
+    }
+    .marquee-inner .ratio:hover img {
+    -webkit-transform: scale(1.1) rotate(3deg);
+    transform: scale(1.1) rotate(3deg);
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
+}
