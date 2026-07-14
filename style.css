@@ -1414,13 +1414,12 @@ button {
     font-weight: 800;
   }
 
- .hero {
+.hero {
     display: flex;
     min-height: auto;
-    padding: 0px 18px 0;
+    padding: 0px 18px 40px;
     flex-direction: column;
 }
-
   .hero::before {
     top: auto;
     bottom: 0;
