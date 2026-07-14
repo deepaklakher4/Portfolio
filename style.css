@@ -2544,5 +2544,9 @@ svg.contact-svg {
     right: -50px !important;
     bottom: -66px !important;
 }
+  .contact-badge {
+    right: 50px;
+    bottom: 110px;
+}
 }
 
