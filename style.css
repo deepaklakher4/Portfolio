@@ -2462,42 +2462,50 @@ button {
 
 
 
-/* SVG Position */
-.contact-rotate-svg {
+.hero-art {
+    position: relative;
+}
+
+.contact-badge {
+    text-decoration: none;
+}
+
+.contact-svg {
     position: absolute;
     right: 40px;
     bottom: 200px;
+    width: 180px;
+    height: 180px;
+    overflow: visible;
 }
 
-/* Tablet/Desktop */
-@media (min-width: 992px) {
-    .contact-rotate-svg {
-        right: 150px;
-        bottom: 80px;
-    }
-}
-
-/* XL (same values, optional) */
-@media (min-width: 1280px) {
-    .contact-rotate-svg {
-        right: 150px;
-        bottom: 80px;
-    }
-}
-
-/* Rotating Group */
-.spin-circle {
-    transform-origin: center;
+.contact-svg-spin {
     transform-box: fill-box;
-    animation: spinCircle 7s linear infinite;
+    transform-origin: center;
+    animation: contactSpin 7s linear infinite;
 }
 
-@keyframes spinCircle {
+@keyframes contactSpin {
     from {
         transform: rotate(0deg);
     }
-
     to {
         transform: rotate(360deg);
+    }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .contact-svg {
+        right: 150px;
+        bottom: 80px;
+    }
+}
+
+/* XL */
+@media (min-width: 1280px) {
+    .contact-svg {
+        right: 150px;
+        bottom: 80px;
     }
 }
