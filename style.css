@@ -2481,7 +2481,7 @@ button {
     width: clamp(300px, 20vw, 500px);
     height: 280px; /* Sab images ki same height */
     overflow: hidden;
-    border-radius: 12px;
+    border-radius:0px;
 }
 
 .marquee-inner .ratio img {
