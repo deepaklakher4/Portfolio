@@ -384,14 +384,13 @@ button {
   height: 2px;
   background: rgba(8, 8, 8, .52);
 }
-
 .hero h1 {
-  margin: 0;
-  font-size: clamp(76px, 7.45vw, 80px);
-  font-weight: 600;
-  letter-spacing: -.07em;
-  line-height: .78;
-  font-family: "Syne", sans-serif;
+    margin: 0;
+    font-size: clamp(76px, 7.45vw, 115px);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1em;
+    font-family: "Syne", sans-serif !important;
 }
 
 .accent-dot {
