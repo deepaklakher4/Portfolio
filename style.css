@@ -10,8 +10,11 @@
   --white: #fff;
   --shell: 1240px;
 }
+h1,h2{
+    font-family: "Syne", sans-serif !important;
+}
 p,span,h3,h4,h5,h6,div{
- font-family: "DM Sans", sans-serif;
+ font-family: "DM Sans", sans-serif !important;
 }
 * {
   box-sizing: border-box;
@@ -28,7 +31,6 @@ body {
   margin: 0;
   color: var(--white);
   background: var(--black);
-   font-family: "Syne", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
