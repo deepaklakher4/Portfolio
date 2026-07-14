@@ -2476,13 +2476,20 @@ button {
     .marquee-inner {
       display: flex;
     }
-    .marquee-inner .ratio {
-      flex-shrink: 0;
-      margin-right: 30px;
-      width: clamp(300px, 20vw, 500px);
-      object-fit: cover;
-      overflow: hidden;
-    }
+.marquee-inner .ratio {
+    flex: 0 0 auto;
+    width: clamp(300px, 20vw, 500px);
+    height: 280px; /* Sab images ki same height */
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.marquee-inner .ratio img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
     .marquee-inner .ratio img {
       object-fit: cover;
           transition: all 0.5s;
