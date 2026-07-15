@@ -2566,3 +2566,7 @@ color: #080808;
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
 }
+.work.section-dark.project .work-gallery-item.work-wide,.work.section-dark.project .work-grid a.work-wide {
+    aspect-ratio: 1.53;
+    grid-column: span 1;
+}
