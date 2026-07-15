@@ -2558,6 +2558,11 @@ svg.contact-svg {
 .section-dark.project .eyebrow{
 color: #080808;
 }
-.work.section-dark.project h2{
+.work.section-dark.project h2,.work.section-dark.project .heading-copy{
 color: #080808;
+}
+.work.section-dark.project .work-grid {
+
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
 }
