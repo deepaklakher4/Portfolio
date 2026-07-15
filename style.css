@@ -2551,3 +2551,14 @@ svg.contact-svg {
   }
 }
 
+
+.section-dark.project {
+      background: #fde8d8;
+}
+.section-dark.project .eyebrow{
+color: #080808;
+}
+.work.section-dark.project h2{
+
+color: #080808;
+}
