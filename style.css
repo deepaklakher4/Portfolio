@@ -2573,3 +2573,67 @@ color: #080808;
 .about.new{
     padding: 145px 0 145px;
 }
+
+
+
+.about-wrap {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+.about-section:last-of-type {
+    border-bottom: none;
+}
+.about-section {
+    padding: 64px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+.about-section-label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #a1a1aa;
+    margin-bottom: 12px;
+}
+.about-section-title {
+    font-size: clamp(22px, 2.5vw, 34px);
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    line-height: 1.1;
+    color: #0a0a0a;
+    margin-bottom: 40px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+.skill-card {
+    background: #f9f9f9;
+    border-radius: 14px;
+    padding: 24px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.skill-card-num {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: #d4d4d8;
+}
+.skill-card-title {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    color: #0a0a0a;
+}
+.skill-card-desc {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.65;
+    letter-spacing: -0.005em;
+    color: #71717a;
+}
