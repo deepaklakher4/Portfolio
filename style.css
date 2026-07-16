@@ -1198,18 +1198,20 @@ button {
 }
 
 .footer-name {
-  display: block;
-  margin: 105px 0 15px;
-  padding-bottom: 35px;
-  border-bottom: 1px solid #131313;
-  font-size: clamp(48px, 7.2vw, 108px);
-  font-weight: 900;
-  letter-spacing: .02em;
-  line-height: 1;
-  text-align: center;
-  transform: scaleX(1.04);
+    display: block;
+    margin: 105px 0 15px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #131313;
+    font-size: clamp(48px, 7.2vw, 70px);
+    font-weight: 900;
+    letter-spacing: .02em;
+    line-height: 1;
+    text-align: center;
+    transform: scaleX(1.04);
 }
-
+.footer-name  a{
+  font-family: "Syne", sans-serif !important;
+}
 .reveal {
   opacity: 0;
   transform: translateY(25px);
