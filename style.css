@@ -1181,13 +1181,12 @@ button {
   border-radius: 6px;
   flex-direction: column;
   justify-content: space-between;
-  font-size: 14px;
+  font-size: 20px;
 }
-
 .contact-card strong {
-  color: #d88643;
-  font-size: 13px;
-  font-weight: 500;
+    color: #d88643;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .contact-card i {
