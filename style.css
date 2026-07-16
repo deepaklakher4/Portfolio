@@ -2601,10 +2601,10 @@ color: #080808;
     font-weight: 800;
     letter-spacing: -0.04em;
     line-height: 1.1;
-    color: #0a0a0a;
+    color: #ffffff;
     margin-bottom: 40px;
+    text-align: center;
 }
-
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
