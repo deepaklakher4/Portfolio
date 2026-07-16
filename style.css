@@ -2637,3 +2637,8 @@ color: #080808;
     letter-spacing: -0.005em;
     color: #71717a;
 }
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+}
