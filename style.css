@@ -1209,7 +1209,7 @@ button {
     text-align: center;
     transform: scaleX(1.04);
 }
-.footer-name  a{
+a.footer-name{
   font-family: "Syne", sans-serif !important;
 }
 .reveal {
