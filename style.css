@@ -2570,3 +2570,6 @@ color: #080808;
     aspect-ratio: 1.53;
     grid-column: span 1;
 }
+.about.new{
+    padding: 145px 0 145px;
+}
